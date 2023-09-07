@@ -1,0 +1,33 @@
+/* Banner Styles  */
+
+.jda-banner {
+  display: flex;
+  align-items: center;
+  min-height: 550px;
+  position: relative;
+  background-color: tomato;
+}
+
+.jda-banner .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.jda-banner h1 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+@media (min-width: 1024px) {
+  .jda-banner h1 {
+    font-size: 80px;
+  }
+  .jda-banner {
+    min-height: 800px;
+  }
+}

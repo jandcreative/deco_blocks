@@ -1,0 +1,86 @@
+/* Banner Styles  */
+
+.jda-hero {
+  display: grid;
+  align-items: center;
+  min-height: 550px;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 1400px;
+  gap: 2rem;
+}
+
+/* /* .jda-banner .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+   */
+.jda-hero .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.jda-hero h1 {
+  color: #222222;
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.jda-hero p {
+  opacity: 0.8;
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.jda-hero .links {
+  display: flex;
+  padding-top: 1em;
+  gap: 1.5em;
+}
+
+.jda-hero a.button {
+  padding: 0.4em 1em;
+  background: #640af8;
+  border-color: #640af8;
+  border-style: solid;
+  line-height: 1.6em;
+  color: #fff;
+  padding: 9px 19px;
+  font-size: 1.125em;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.jda-hero a.button:hover,
+.jda-hero a.button:focus {
+  background: #4204a7;
+  box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 0.1);
+}
+
+.jda-hero a.button.action {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+}
+
+.jda-hero .kt-btn-svg-icon {
+  padding-left: 0.5em;
+}
+
+@media (max-width: 1024px) {
+  .jda-hero {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

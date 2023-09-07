@@ -1,0 +1,13 @@
+{
+  "name": "banner",
+  "title": "Banner",
+  "description": "Mostramos un Banner Cool",
+  "style": ["file:./banner.css"],
+  "category": "text",
+  "icon": "welcome-view-site",
+  "keywords": ["banner", "contact"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "banner.php"
+  }
+}

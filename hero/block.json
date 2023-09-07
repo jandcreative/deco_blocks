@@ -1,0 +1,13 @@
+{
+  "name": "hero",
+  "title": "Hero",
+  "description": "Hero Home - banner principal",
+  "style": ["file:./hero.css"],
+  "category": "text",
+  "icon": "bell",
+  "keywords": ["cabecera", "banner"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hero.php"
+  }
+}

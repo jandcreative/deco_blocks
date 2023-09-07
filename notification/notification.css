@@ -1,0 +1,53 @@
+/* Notification Styles  */
+
+.jda-notification {
+  background-color: #32373a;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.jda-notification .date {
+  color: #f3f5f6;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.jda-notification .title {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.jda-notification .btn {
+  color: #fff;
+  background-color: #20c789;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.jda-notification .btn:hover {
+  color: #fff;
+  background-color: #1a9567;
+}
+
+@media (min-width: 1024px) {
+  .jda-notification {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .jda-notification .col-left {
+    flex-basis: calc(75% - 20px);
+  }
+  .jda-notification .col-right {
+    flex-basis: 25%;
+  }
+  .jda-notification .title {
+    margin-bottom: 0;
+  }
+}

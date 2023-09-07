@@ -1,0 +1,349 @@
+/* Pricing Styles  */
+.pricing .package-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pricing .card {
+  margin: 20px;
+  width: calc(31% - 2em);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-shadow: 0 4px 39px rgba(211, 211, 211, 0.2);
+  border: 3px solid var(--primary);
+  transition: all 400ms ease-in-out;
+  position: relative;
+  -webkit-border-radius: 12px;
+}
+
+.pricing h2 {
+  font-size: 38px;
+  color: #fff;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+
+.toggle-btn span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pricing .container {
+  width: 100%;
+}
+
+.pricing .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.pricing .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.pricing input,
+.pricing label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+.pricing .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.pricing .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--accent);
+  transition: 0.6s ease transform, 0.6s box-shadow;
+  transform: translate(0, 0);
+}
+
+.pricing .slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  right: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.pricing input:checked + .slider {
+  background-color: var(--accent);
+}
+
+input:checked + .slider::before {
+  transform: translateX(-26px);
+}
+
+.pricing .slider.round {
+  border-radius: 34px;
+}
+
+.pricing .slider.round::before {
+  border-radius: 50%;
+}
+
+.pricing .package-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pricing mark.dolar {
+  position: relative;
+  top: -14px;
+  padding-right: 2px;
+}
+
+.pricing mark {
+  background-color: initial;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 3px;
+}
+
+.pricing .card {
+  margin: 20px;
+  width: calc(31% - 2em);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-shadow: 0 4px 39px rgba(211, 211, 211, 0.2);
+  border: 3px solid var(--primary);
+  transition: all 400ms ease-in-out;
+  position: relative;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.pricing .card:hover {
+  transform: scale(1.05);
+}
+
+.pricing .list li {
+  font-size: 16px;
+  list-style: none;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 20px;
+  color: #000;
+}
+
+.pricing .card p {
+  text-align: left;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--primary);
+}
+
+.pricing .list {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  text-align: left;
+  border-top: 1.5px solid var(--primary);
+  padding-top: 25px;
+}
+
+.pricing .card p.text4,
+.pricing .card p.text3 {
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 7px;
+  color: var(--primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+.pricing .card p span.savings {
+  color: var(--accent);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.price {
+  padding: 25px 0 15px;
+}
+
+.pricing ul {
+  padding: 0;
+}
+
+.message {
+  min-height: 150px;
+}
+
+.pricing h3 {
+  font-size: 35px;
+  color: var(--primary);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pricing h4 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.pricing .card button {
+  color: var(--accent);
+  background-color: initial;
+  padding: 10px;
+  font-family: var(--bold);
+  font-size: 18px;
+  padding: 8px 30px !important;
+  border: none;
+  border-radius: 8px;
+  border: 3px solid var(--accent);
+  transition: 0.5s;
+  box-shadow: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom: 25px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.pricing .card button a {
+  color: var(--accent);
+}
+
+.pricing .card button:hover {
+  background-color: var(--accent);
+}
+
+.pricing .card button:hover a {
+  color: #fff;
+}
+
+.pricing .card.messaging a {
+  color: #fff;
+}
+
+.pricing .card.featured button {
+  color: #fff;
+  background-color: var(--accent);
+  padding: 10px;
+  font-family: var(--bold);
+  font-size: 18px;
+  padding: 8px 30px !important;
+  border: none;
+  border-radius: 8px;
+  border: 3px solid var(--accent);
+  transition: 0.5s;
+  box-shadow: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom: 25px;
+}
+
+.pricing .back {
+  margin: 0.8em;
+}
+
+.featured .most-popular {
+  background-color: var(--accent);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+}
+
+.empty .most-popular {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .list p {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 23px;
+  padding-bottom: 15px;
+}
+
+.pricing h4 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.pricing .card.featured button {
+  color: #fff;
+  background-color: var(--accent);
+  padding: 10px;
+  font-family: var(--bold);
+  font-size: 18px;
+  padding: 8px 30px !important;
+  border: none;
+  border-radius: 8px;
+  border: 3px solid var(--accent);
+  transition: 0.5s;
+  box-shadow: none;
+  font-weight: 500;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom: 25px;
+}
