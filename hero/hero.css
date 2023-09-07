@@ -1,11 +1,34 @@
 /* Banner Styles  */
 
-.jda-hero {
+/* @font-face {
+  font-family: "CabinetGrotesk-extra-bold";
+  src: url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.eot");
+  src: url("../../fonts/CabinetGrotesk-extra-bold.eot")
+      format("embedded-opentype"),
+    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.woff2")
+      format("woff2"),
+    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.woff")
+      format("woff"),
+    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.ttf")
+      format("truetype"),
+    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.svg#CabinetGroteskExtrabold")
+      format("svg");
+}
+ */
+
+.hero_home {
+  background-color: var(--accent);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+}
+
+.hero {
   display: grid;
   align-items: center;
   min-height: 550px;
   position: relative;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr 300px;
   max-width: 1400px;
   gap: 2rem;
 }
@@ -17,7 +40,7 @@
     z-index: 10;
   }
    */
-.jda-hero .intro-text {
+.hero .intro-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,30 +48,29 @@
   margin: 0 auto;
 }
 
-.jda-hero h1 {
-  color: #222222;
+.hero h1 {
+  color: var(--white);
   margin-bottom: 24px;
   font-size: 64px;
   line-height: 72px;
 }
 
-.jda-hero p {
-  opacity: 0.8;
-  margin-bottom: 32px;
+.hero p {
+  color: var(--white);
   font-size: 24px;
   line-height: 36px;
 }
 
-.jda-hero .links {
+.hero .links {
   display: flex;
   padding-top: 1em;
   gap: 1.5em;
 }
 
-.jda-hero a.button {
+.hero a.button {
   padding: 0.4em 1em;
-  background: #640af8;
-  border-color: #640af8;
+  background: transparent;
+  border-color: var(--white);
   border-style: solid;
   line-height: 1.6em;
   color: #fff;
@@ -59,26 +81,27 @@
   box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
   display: flex;
   align-items: center;
+  border-radius: 50px;
 }
 
-.jda-hero a.button:hover,
-.jda-hero a.button:focus {
+.hero a.button:hover,
+.hero a.button:focus {
   background: #4204a7;
   box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 0.1);
 }
 
-.jda-hero a.button.action {
+.hero a.button.action {
   color: #222222;
   border-color: #222222;
   background-color: transparent;
 }
 
-.jda-hero .kt-btn-svg-icon {
+.hero .kt-btn-svg-icon {
   padding-left: 0.5em;
 }
 
 @media (max-width: 1024px) {
-  .jda-hero {
+  .hero {
     padding-top: 0px;
     padding-bottom: 80px;
     grid-template-columns: minmax(0, 1fr);
