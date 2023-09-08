@@ -1,0 +1,13 @@
+{
+  "name": "spacer",
+  "title": "Spacer",
+  "description": "Create different spaces between elements.",
+  "style": ["file:./spacer.css"],
+  "category": "text",
+  "icon": "minus",
+  "keywords": ["spacer"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "spacer.php"
+  }
+}
