@@ -9,7 +9,7 @@ function jda_register_acf_blocks() {
 	register_block_type( __DIR__ . '/hero' );
 
 	// Register Banner banner
-	register_block_type( __DIR__ . '/banner' );
+	register_block_type( __DIR__ . '/cta' );
 
 	// Register Brands block
 	register_block_type( __DIR__ . '/brands' );
