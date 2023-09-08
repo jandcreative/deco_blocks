@@ -5,19 +5,16 @@
 add_action( 'init', 'jda_register_acf_blocks', 5 );
 
 function jda_register_acf_blocks() {
-
-
-
-	// Register Notification block
-
+	// Register Hero
 	register_block_type( __DIR__ . '/hero' );
-	
-	// Register Banner block
-	
+
+	// Register Banner banner
 	register_block_type( __DIR__ . '/banner' );
 
+	// Register Brands block
+	register_block_type( __DIR__ . '/brands' );
 
-
-
+	// Register Spacers block
+	register_block_type( __DIR__ . '/spacer' );
 
 }
