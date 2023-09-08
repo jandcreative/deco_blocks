@@ -19,9 +19,9 @@ endif;
 
 
 // ACF Fields
-$title = get_field('jda_hero_title');
+/* $title = get_field('jda_hero_title');
 $descripcion = get_field('jda_hero_description');
-$img = get_field('jda_hero_image');
+$img = get_field('jda_hero_image'); */
 ?>
 
 
@@ -44,4 +44,3 @@ $img = get_field('jda_hero_image');
 	</div>
 
 </section>
-
