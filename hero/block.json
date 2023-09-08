@@ -4,8 +4,8 @@
   "description": "Hero Home",
   "style": ["file:./hero.css"],
   "category": "Flyingcat",
-  "icon": "welcome-view-site",
-  "keywords": ["hero", "banner"],
+  "icon": "superhero",
+  "keywords": ["hero banner"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "hero.php"
