@@ -16,12 +16,6 @@
 if(!empty($block['align'])):
    $class_name .= ' align' . esc_attr($block['align']);
 endif;
-
-
-// ACF Fields
-/* $title = get_field('jda_hero_title');
-$descripcion = get_field('jda_hero_description');
-$img = get_field('jda_hero_image'); */
 ?>
 
 
@@ -36,7 +30,7 @@ $img = get_field('jda_hero_image'); */
 		<?php while ( have_rows('icons_brands') ) : the_row(); ?> 
 		 		 
 		<div class="client">
-			<a href="<?php the_sub_field('url_logo');?>" target="_blank"><img src="<?php the_sub_field('logo');?>"></a>
+			<a href="<?php the_sub_field('url_logo');?>" target="_blank"><img src="<?php the_sub_field('img_logo');?>"></a>
 		</div>
 
 		<?php endwhile; ?>

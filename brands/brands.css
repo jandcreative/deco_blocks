@@ -1,0 +1,51 @@
+section.brands {
+  min-height: auto;
+  padding: 70px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section.brands h2 {
+  font-size: 38px;
+  color: var(--accent);
+  margin: 0;
+  padding: 25px 20px 50px 20px;
+}
+
+section.brands h2 mark {
+  color: var(--accent);
+}
+
+.clients {
+  padding: 0 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-gap: 2rem;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+}
+
+.client {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.client img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.client img:hover {
+  transform: scale(1.05);
+}
