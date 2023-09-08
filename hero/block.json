@@ -3,7 +3,7 @@
   "title": "Hero",
   "description": "Hero Home",
   "style": ["file:./hero.css"],
-  "category": "Flyingcat",
+  "category": "text",
   "icon": "superhero",
   "keywords": ["hero banner"],
   "acf": {
