@@ -1,0 +1,13 @@
+{
+  "name": "CTA",
+  "title": "CTA",
+  "description": "Mostramos un Banner Cool",
+  "style": ["file:./cta.css"],
+  "category": "text",
+  "icon": "minus",
+  "keywords": ["contact"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "cta.php"
+  }
+}
