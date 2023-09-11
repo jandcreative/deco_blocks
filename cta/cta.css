@@ -16,7 +16,7 @@ section.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 100px;
+  padding: 100px 20px 120px;
 }
 
 .hero-contact .container-contact {
@@ -32,6 +32,12 @@ section.banner {
   line-height: 48px;
   font-weight: var(--bold);
   color: var(--white);
+}
+
+.hero-contact img {
+  max-width: 280px;
+  width: 100%;
+  padding-bottom: var(--S);
 }
 
 .hero-contact p {
@@ -53,8 +59,8 @@ section.banner {
 }
 
 .hero-contact button a {
+  font-family: "Satoshi-bold";
   color: var(--white);
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 20px;
   text-decoration: none;
 }

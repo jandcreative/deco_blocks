@@ -1,0 +1,13 @@
+{
+  "name": "brands",
+  "title": "Brands",
+  "description": "Brands",
+  "style": ["file:./brands.css"],
+  "category": "text",
+  "icon": "bell",
+  "keywords": ["brands"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "brands.php"
+  }
+}
