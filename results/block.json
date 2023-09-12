@@ -1,13 +1,13 @@
 {
-  "name": "brands",
-  "title": "Brands",
+  "name": "results",
+  "title": "Results",
   "description": "Brands",
-  "style": ["file:./brands.css"],
+  "style": ["file:./results.css"],
   "category": "text",
-  "icon": "bell",
-  "keywords": ["brands"],
+  "icon": "welcome-widgets-menus",
+  "keywords": ["results"],
   "acf": {
     "mode": "preview",
-    "renderTemplate": "brands.php"
+    "renderTemplate": "results.php"
   }
 }

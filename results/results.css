@@ -1,0 +1,33 @@
+.grid-results {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2em;
+}
+
+.grid-results .item-result img {
+  max-width: 120px;
+  width: 100%;
+}
+
+.grid-results .item-result span {
+  display: block;
+}
+
+.grid-results .item-result span.number {
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 42px;
+  color: var(--primary);
+  line-height: 55px;
+}
+
+.grid-results .item-result span.description {
+  font-size: 20px;
+  color: #2d2d2d;
+  font-size: 20px;
+  line-height: 27px;
+  display: block;
+}
+
+.custom-columns {
+  gap: 5.5em;
+}
