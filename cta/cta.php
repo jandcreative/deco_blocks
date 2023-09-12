@@ -18,6 +18,7 @@ if(!empty($block['align'])):
 endif;
 
 // ACF Fields
+$color = get_field('background_color');
 $img = get_field('image_banner');
 $title = get_field('title_banner');
 $text = get_field('text_banner');
@@ -30,13 +31,13 @@ $button = get_field('button_banner');
 
 ?>">
 
-			<div class="hero-contact">
+			<div class="hero-contact"  style="background-color:#ff0049">
 
 				<div class="container-contact">
 					<img src="<?php echo $img;?>">
-					<h3><?php echo $title;?></h3>
+					<h3 style="color:#fff"><?php echo $title;?></h3>
 					<p><?php echo $text;?></p>
-					<button><a href="<?php echo $link;?>" target="_blank">
+					<button><a style="color:#fff" href="<?php echo $link;?>" target="_blank">
 					<?php echo $button;?></a></button>
 				</div>
 					
