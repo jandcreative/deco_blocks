@@ -1,0 +1,13 @@
+{
+  "name": "video",
+  "title": "Video",
+  "description": "Video",
+  "style": ["file:./video.css"],
+  "category": "text",
+  "icon": "minus",
+  "keywords": ["video"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "video.php"
+  }
+}

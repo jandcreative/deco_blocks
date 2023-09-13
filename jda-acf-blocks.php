@@ -19,6 +19,9 @@ function jda_register_acf_blocks() {
 	register_block_type( __DIR__ . '/results' );
 
 	// Register Banner banner
+	register_block_type( __DIR__ . '/video' );
+
+	// Register Banner banner
 	register_block_type( __DIR__ . '/cta' );
 
 }
