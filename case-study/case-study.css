@@ -13,7 +13,7 @@ section.case-study .thumb {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  background-image: url("http://flyingcat.local/wp-content/uploads/img_background_kyoto.jpg");
+  background-image: url("http://flyingcat.local/wp-content/uploads/img_koyo_02.jpg");
   max-width: 100%;
   position: relative;
   background-position: center;
@@ -100,7 +100,7 @@ section.case-study .testimonial .item-testimonial {
 
 section.case-study .testimonial .item-testimonial p {
   padding: 1.5em;
-  border: 2px solid #000;
+  /*  border: 2px solid #000; */
   border-radius: 40px;
   font-size: 20px;
 }
