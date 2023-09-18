@@ -1,10 +1,10 @@
 {
   "name": "case-study",
   "title": "Case Study",
-  "description": "Show different featured works.",
+  "description": "Show Case Study.",
   "style": ["file:./case-study.css"],
   "category": "text",
-  "icon": "minus",
+  "icon": "format-quote",
   "keywords": ["case study"],
   "acf": {
     "mode": "preview",
