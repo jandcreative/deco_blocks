@@ -1,0 +1,13 @@
+{
+  "name": "case-study",
+  "title": "Case Study",
+  "description": "Show different featured works.",
+  "style": ["file:./case-study.css"],
+  "category": "text",
+  "icon": "minus",
+  "keywords": ["case study"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "case-study.php"
+  }
+}
