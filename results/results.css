@@ -12,7 +12,7 @@
   padding: 2em;
   border-radius: 4em;
   width: calc(50% - 2em);
-  height: 240px;
+  height: 260px;
 }
 
 .grid-results .item-result:nth-child(even) {
