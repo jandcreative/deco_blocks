@@ -13,7 +13,7 @@ section.case-study .thumb {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  background-image: url("http://flyingcat.local/wp-content/uploads/img_koyo_02.jpg");
+  background-image: url("");
   max-width: 100%;
   position: relative;
   background-position: center;
@@ -21,11 +21,11 @@ section.case-study .thumb {
   background-repeat: no-repeat;
 }
 
-section.case-study .thumb .box-about .brand img {
+section.case-study .thumb .box-brand .brand img {
   max-width: 150px;
 }
 
-section.case-study .thumb .box-about {
+section.case-study .thumb .box-brand {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -35,7 +35,7 @@ section.case-study .thumb .box-about {
   justify-content: space-between;
 }
 
-section.case-study .thumb .box-about span.number-help {
+section.case-study .thumb .box-brand span.number-help {
   display: block;
   font-family: "CabinetGrotesk-Extrabold";
   font-size: 47px;
@@ -47,7 +47,7 @@ section.case-study .thumb .box-about span.number-help {
   padding-bottom: var(--XS);
 }
 
-section.case-study .thumb .box-about button {
+section.case-study .thumb .box-brand button {
   background-color: transparent;
   padding: 10px 25px;
   margin-bottom: 0;
@@ -57,14 +57,14 @@ section.case-study .thumb .box-about button {
   width: fit-content;
 }
 
-section.case-study .thumb .box-about a {
+section.case-study .thumb .box-brand a {
   font-family: "Satoshi-bold";
   color: var(--white);
   font-size: 20px;
   text-decoration: none;
 }
 
-section.case-study .thumb .box-about h2 {
+section.case-study .thumb .box-brand h2 {
   font-family: "CabinetGrotesk-Extrabold";
   font-size: 47px;
   margin: 0;
