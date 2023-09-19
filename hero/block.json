@@ -1,11 +1,11 @@
 {
   "name": "hero",
   "title": "Hero",
-  "description": "Hero Home",
+  "description": "El banner principal d ela home",
   "style": ["file:./hero.css"],
   "category": "text",
   "icon": "superhero",
-  "keywords": ["hero banner"],
+  "keywords": ["herobanner"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "hero.php"
