@@ -65,12 +65,6 @@ section.case-study .thumb .box-brand a {
 }
 
 section.case-study .thumb .box-brand h2 {
-  font-family: "CabinetGrotesk-Extrabold";
-  font-size: 47px;
-  margin: 0;
-  padding: 0 0 var(--M);
-  line-height: 48px;
-  font-weight: var(--bold);
   color: var(--white);
 }
 
