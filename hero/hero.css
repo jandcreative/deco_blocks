@@ -1,21 +1,5 @@
 /* Banner Styles  */
 
-/* @font-face {
-  font-family: "CabinetGrotesk-extra-bold";
-  src: url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.eot");
-  src: url("../../fonts/CabinetGrotesk-extra-bold.eot")
-      format("embedded-opentype"),
-    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.woff2")
-      format("woff2"),
-    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.woff")
-      format("woff"),
-    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.ttf")
-      format("truetype"),
-    url("../../../themes/flyingcat/fonts/CabinetGrotesk-extra-bold.svg#CabinetGroteskExtrabold")
-      format("svg");
-}
- */
-
 .hero_home {
   background-color: var(--accent);
   min-height: 100vh;
