@@ -25,12 +25,15 @@ $image_video = get_field('image_video');
 $html = get_field('html_video');
 ?>
 
-<div class=" container-<?php echo $class_name;?>">
-	<img src="<?php echo $image_cat;?>">
+
+<div class="container-<?php echo $class_name;?>">
+    <?php if( !empty( $image_cat ) ): ?>
+		<img src="<?php echo $image_cat;?>">
+	<?php endif; ?>
 	<h2><?php echo $title;?></h2>
 	<div class="video-thumb">
-		<img src="">
-		<div class="popup"><div>
+	<a class="wp-video-popup" href="#"><img src="<?php echo $image_video;?>"></a>
+   <?php echo $html;?>
 	</div>
 </div>
 					
