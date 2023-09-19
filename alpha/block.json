@@ -1,0 +1,13 @@
+{
+  "name": "alpha",
+  "title": "Alpha",
+  "description": "Alpha",
+  "style": ["file:./alpha.css"],
+  "category": "text",
+  "icon": "alpha",
+  "keywords": ["alpha"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "alpha.php"
+  }
+}
