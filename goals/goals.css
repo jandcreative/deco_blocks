@@ -24,9 +24,8 @@ section#goals .item-faq {
 }
 
 section#goals h3 {
-  font-size: var(--M);
-  font-family: "Satoshi-bold";
-  color: var(--white);
+  font-size: var(--L);
+  font-family: "CabinetGrotesk-Extrabold";
   margin-bottom: 0;
   padding-bottom: var(--S);
   line-height: initial;
@@ -51,7 +50,7 @@ section#goals .description-ask {
   flex-basis: 70%;
   background-color: transparent;
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   width: 100%;
   max-height: 0;
   overflow: hidden;
@@ -74,8 +73,7 @@ section#goals .question-box.active span.plus {
 section#goals .description-ask p {
   font-family: "Satoshi-regular";
   opacity: 0;
-  color: var(--white);
-  font-size: 20px;
+  font-size: 22px;
   transition: opacity 0.4s ease-in-out;
 }
 
