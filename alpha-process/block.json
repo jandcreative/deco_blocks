@@ -1,0 +1,13 @@
+{
+  "name": "alpha-process",
+  "title": "Alpha Process",
+  "description": "Alpha",
+  "style": ["file:./alpha.css"],
+  "category": "text",
+  "icon": "plus",
+  "keywords": ["alpha", "process"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "alpha-process.php"
+  }
+}

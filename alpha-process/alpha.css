@@ -1,0 +1,106 @@
+.hero_home {
+  background-color: var(--accent);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+}
+
+.hero_process {
+  background-color: var(--pink);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+}
+
+.hero {
+  display: grid;
+  align-items: center;
+  min-height: 550px;
+  position: relative;
+  grid-template-columns: 1fr 300px;
+  max-width: 1400px;
+  gap: 2rem;
+}
+
+.hero .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-family: "CabinetGrotesk-Extrabold";
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.hero p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.hero_home .hero h1,
+.hero_home .hero p {
+  color: var(--white);
+}
+
+.hero_process .hero h1,
+.hero_process .hero p {
+  color: var(--primary);
+}
+
+.hero_process .hero a.button {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.hero .links {
+  display: flex;
+  padding-top: 1em;
+  gap: 1.5em;
+}
+
+.hero a.button {
+  font-family: "Satoshi-bold";
+  padding: 0.4em 1em;
+  background: transparent;
+  border-color: var(--white);
+  border-style: solid;
+  line-height: 1.6em;
+  color: #fff;
+  padding: 9px 19px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.hero a.button:hover,
+.hero a.button:focus {
+  background: #4204a7;
+  box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 0.1);
+}
+
+.hero a.button.action {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+}
+
+.hero .kt-btn-svg-icon {
+  padding-left: 0.5em;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
