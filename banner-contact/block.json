@@ -1,0 +1,13 @@
+{
+  "name": "Banner-contact",
+  "title": "Banner contact",
+  "description": "Banner Contact Page",
+  "style": ["file:./banner-contact.css"],
+  "category": "",
+  "icon": "",
+  "keywords": ["contact"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "banner-contact.php"
+  }
+}
