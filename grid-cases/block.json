@@ -2,10 +2,10 @@
   "name": "grid-cases",
   "title": "Grid Cases",
   "description": "Add grid cases.",
-  "style": ["file:./gird-cases.css"],
+  "style": ["file:./grid-cases.css"],
   "category": "text",
   "icon": "format-quote",
-  "keywords": ["grid", "cases"],
+  "keywords": ["grid"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "grid-cases.php"

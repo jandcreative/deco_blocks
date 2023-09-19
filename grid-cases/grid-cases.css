@@ -1,135 +1,28 @@
-/* Case Study Styles  */
-
-section.case-study {
-  display: flex;
-  height: 800px;
+section.grid-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-section.case-study .thumb {
-  flex-basis: 55%;
-  background-color: var(--grey);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  background-image: url("");
-  max-width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-section.case-study .thumb .box-brand .brand img {
-  max-width: 150px;
-}
-
-section.case-study .thumb .box-brand {
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-  justify-content: center;
-  flex-basis: 600px;
-  text-align: left;
-  justify-content: space-between;
-}
-
-section.case-study .thumb .box-brand span.number-help {
-  display: block;
-  font-family: "CabinetGrotesk-Extrabold";
-  font-size: 47px;
-  margin: 0;
-  padding: 0 0 var(--M);
-  line-height: 48px;
-  font-weight: var(--bold);
-  color: var(--white);
-  padding-bottom: var(--XS);
-}
-
-section.case-study .thumb .box-brand button {
-  background-color: transparent;
-  padding: 10px 25px;
-  margin-bottom: 0;
-  border: 2px solid var(--white);
-  margin-top: 15px;
-  border-radius: 100px;
-  width: fit-content;
-}
-
-section.case-study .thumb .box-brand a {
+section.grid-cases div p {
   font-family: "Satoshi-bold";
-  color: var(--white);
-  font-size: 20px;
-  text-decoration: none;
-}
-
-section.case-study .thumb .box-brand h2 {
-  color: var(--white);
-}
-
-section.case-study .testimonial {
-  flex-basis: 45%;
-  align-items: center;
-  display: flex;
-  border-radius: 40px;
-}
-
-section.case-study .cut-cat {
-  text-align: center;
-}
-
-section.case-study .cut-cat img {
-  max-width: 90px;
-}
-
-section.case-study .testimonial .item-testimonial {
-  background-color: #fff;
-  border-radius: 15px;
-  max-width: 800px;
-  margin: 4em auto;
-  height: auto;
-  padding: 40px;
-}
-
-section.case-study .testimonial .item-testimonial p {
-  padding: 1.5em;
-  /*  border: 2px solid #000; */
-  border-radius: 40px;
-  font-size: 20px;
-}
-
-section.case-study .testimonial .item-testimonial .info-profile .txt span {
-  display: block;
-}
-
-section.case-study .testimonial .item-testimonial .info-profile {
-  display: flex;
-  gap: var(--S);
-  align-items: center;
-  padding-top: var(--L);
-  width: fit-content;
-  margin: 0 auto;
-}
-
-section.case-study .testimonial .item-testimonial .info-profile .avatar img {
-  border-radius: 50%;
-  width: 85px;
-  display: initial;
-  line-height: auto;
-  height: auto;
-}
-
-section.case-study .testimonial .item-testimonial .info-profile .txt span.name {
-  font-weight: var(--bold);
-  font-size: 20px;
-}
-
-section.case-study
-  .testimonial
-  .item-testimonial
-  .info-profile
-  .txt
-  span.position {
   font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-cases div a {
+  font-family: "Satoshi-bold";
+  font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-cases .frame .content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 380px;
+  padding: 3rem;
+}
+
+section.grid-cases .frame .content img {
+  max-width: 120px;
 }

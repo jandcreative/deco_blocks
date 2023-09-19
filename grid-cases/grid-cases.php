@@ -8,30 +8,77 @@
     $anchor = 'id="' . esc_attr( $block['anchor'] ) . '" ';
  endif;
 
- $class_name = 'case-study';
+ $class_name = 'grid-cases';
  if( !empty($block['className'] ) ):
     $class_name .= ' ' . esc_attr( $block['className'] );
  endif;
 
 // ACF Fields
-/* Brands */
-$background_case = get_field('background_case_study');
-$logo_case = get_field('logo_case_study');
-$number_case = get_field('number_case_study');
-$title_case = get_field('title_case_study');
-$button_case = get_field('button_case_study');
-$link_case = get_field('link_case_study');
 
-/* Testimonial */
-$cat_case = get_field('img_cat_case_study');
-$html_content_case = get_field('html_content_case_study');
-$img_avatar_case = get_field('img_avatar_case_study');
-$name_case = get_field('name_case_study');
-$position_case = get_field('position_case_study');
 ?>
 
 <section <?php echo $anchor;?>class="<?php echo $class_name;?>">
   
-   <div class="thumb" style="background-image: url('<?php echo $background_case;?>');">
-</div>
+   <div class="box" style="background-color:#ff0049">
+      <div class="frame">
+         <div class="content">
+            <p style="color:#fff">How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+            <a style="color:#fff" href="#">Know more</a>
+            <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+         </div>
+      </div>
+   </div>
+
+   <div class="box" style="background-color:#fcdfd8">
+      <div class="frame">
+         <div class="content">
+            <p style="color:#000">How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+            <a style="color:#000" href="#">Know more</a>
+            <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+         </div>
+      </div>
+   </div>
+
+   <div class="box" style="background-image:url('http://flyingcat.local/wp-content/uploads/img_koyo_02.jpg'); background-size: contain;">
+      <div class="frame">
+         <div class="content">
+            <p style="color:#fff">How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+            <a style="color:#fff" href="#">Know more</a>
+            <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+         </div>
+      </div>
+   </div>
+
+   <div class="box" style="background-color:#dfdfa8">
+      <div class="frame">
+         <div class="content">
+            <p>How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+            <a style="color:#000" href="#">Know more</a>
+            <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+         </div>
+      </div>
+   </div>
+
+   <div class="box" style="background-color:#000">
+      <div class="frame">
+         <div class="content">
+         <p style="color:#fff">How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+         <a style="color:#fff" href="#">Know more</a>
+         <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+         </div>
+      </div>
+   </div>
+
+
+   <div class="box" style="bacground-color:#f5f5f5">
+      <div class="frame">
+         <div class="content">
+            <p>How we helped position TestGorilla as the key voice in skills-based hiring by scaling high-quality frame</p>
+            <a style="color:#000" href="#">Know more</a>
+            <img src="http://flyingcat.local/wp-content/uploads/img_cat_news.svg">
+            </div>
+      </div>
+   </div>
+
+
  </section>
