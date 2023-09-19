@@ -1,24 +1,55 @@
-<section id="faq" class="faq">
+<?php
+/**
+ * FAQ Template.
+ */
+
+ $anchor = '';
+ if ( !empty( $block['anchor'] ) ):
+    $anchor = 'id="' . esc_attr( $block['anchor'] ) . '" ';
+ endif;
+
+ $class_name = 'faq';
+ if( !empty($block['className'] ) ):
+    $class_name .= ' ' . esc_attr( $block['className'] );
+ endif;
+
+ if(!empty($block['align'])):
+    $class_name .= ' align' . esc_attr($block['align']);
+ endif;
+ 
+// ACF Fields
+?>
+
+
+<section <?php echo $anchor;?> id="faq">
+
+<div class="<?php echo $class_name;?>">
 
     <div class="title">
-        <h2>Frequently asked questions about programmatic SEO</h2>
+        <h2><?php the_field('title_faq');?></h2>
     </div>
 
     <div class="container-faq">
 
-        <div class="question-box">
-            
-            <div class="item-faq"> 
-               
-                <h2 class="question">How do you implement programmatic SEO?</h2>
-                <span class="plus"> <img src="https://seinserigrafia.es/wp-content/uploads/2021/07/croix.svg"> </span>
+        <div class="items-faqs">
+        <?php while ( have_rows('list_faq') ) : the_row(); ?>
+            <div class="question-box">
+                
+                <div class="item-faq"> 
+                
+                    <h3 class="question"><?php the_sub_field('ask_faq');?></h3>
+                    <span class="plus"> <img src="<?php the_field('icon', 'options');?>"> </span>
+                </div>
+                
+                <div class="description-ask">
+                    <?php the_sub_field('answer_faq');?>
+                </div>
             </div>
-            
-            <div class="description-ask">
-                <p>La serigrafía es una técnica que permite la impresión sobre cualquier tipo de material, mediante la transferencia de tinta a través de una malla tensada en un marco.</p>
-            </div>
+        <?php endwhile; ?>
         </div>
 
     </div>
+
+</div>
 
 </section>
