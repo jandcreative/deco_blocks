@@ -52,5 +52,8 @@ function jda_register_acf_blocks() {
 	// Register Goals block
 	register_block_type( __DIR__ . '/goals' );
 
+	// Register Grid Cases
+	register_block_type( __DIR__ . '/grid-cases' );
+
 }
 
