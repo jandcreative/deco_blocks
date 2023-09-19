@@ -1,0 +1,13 @@
+{
+  "name": "goals",
+  "title": "Goals",
+  "description": "Goals acomplished.",
+  "style": ["file:./goals.css"],
+  "category": "text",
+  "icon": "dashboard",
+  "keywords": ["goals", "completed"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "goals.php"
+  }
+}
