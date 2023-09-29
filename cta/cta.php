@@ -32,7 +32,7 @@ $button = get_field('button_banner');
 
 ?>">
 
-			<div class="hero-<?php echo $select;?>"  style="background-color:<?php echo $background;?>" >
+			<div class="hero-<?php echo $select;?>" style="background-color:<?php echo $background;?>" >
 
 				<div class="container-contact">
 					<img src="<?php echo $img;?>">
