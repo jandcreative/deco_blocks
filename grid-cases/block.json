@@ -4,7 +4,7 @@
   "description": "Add grid cases.",
   "style": ["file:./grid-cases.css"],
   "category": "text",
-  "icon": "format-quote",
+  "icon": "share-alt",
   "keywords": ["grid"],
   "acf": {
     "mode": "preview",
