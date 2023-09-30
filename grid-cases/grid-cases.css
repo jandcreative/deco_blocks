@@ -15,14 +15,31 @@ section.grid-cases div a {
   line-height: normal;
 }
 
+section.grid-cases .frame {
+  position: relative;
+}
+
 section.grid-cases .frame .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: column;
-  height: 380px;
+  height: 360px;
   padding: 3rem;
 }
 
-section.grid-cases .frame .content img {
+section.grid-cases .frame .content span {
+  font-size: 18px;
+  line-height: normal;
+  display: block;
+  padding-bottom: 0.25em;
+}
+
+section.grid-cases .frame .img_cat {
+  position: relative;
+  display: flex;
+  padding-top: 3em;
+}
+
+section.grid-cases .frame .img_cat img {
   max-width: 120px;
 }
