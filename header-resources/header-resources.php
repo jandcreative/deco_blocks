@@ -1,6 +1,6 @@
 <?php
 /**
- * Alpha Resources.
+ * Header Resources.
  */
 
  $anchor = '';
@@ -22,9 +22,9 @@ $img_cut_cat = get_field('hero_resources_cat');
 ?>
 
 <section id="banner" class="hero_resources">
-   <div class="hero block" style="text-align:center">
+   <div class="hero alignblock" style="text-align:center">
 
-     <div class="box-logo">
+      <div class="box-logo">
          <img src="<?php echo $image_logo_resource?>">
       </div>
 
@@ -46,12 +46,11 @@ $img_cut_cat = get_field('hero_resources_cat');
 				<picture><?php echo get_avatar( get_the_author_meta('ID'), 42, '', get_the_author() ); ?></picture>
 				 <strong><?php the_author(); ?> </strong> -  <span> <?php the_time(get_option('date_format')); ?></span>
 		 	</p>
-
       </div>
-
-
    </div>
+
    <div class="cut-cat">
-      <img src="<?php echo $img_cut_cat?>">
+         <img src="<?php echo $img_cut_cat?>">
    </div>
+
 </section>

@@ -1,21 +1,10 @@
-.hero_home {
-  background-color: var(--accent);
-  min-height: 100vh;
-  display: flex;
-  padding: 0 40px;
-}
-
 .hero_resources {
   background-color: var(--accent);
   min-height: 100vh;
   display: flex;
   padding: 0 40px;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
-}
-
-.hero_resources .block {
-  max-width: 1024px;
 }
 
 .hero_resources .hero {
@@ -24,12 +13,20 @@
   position: relative;
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 240px;
+}
+
+.hero_resources .content h1 {
+  font-family: "CabinetGrotesk-Extrabold";
+  color: #fff;
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
 }
 
 .hero_resources .hero p {
   max-width: 100%;
   line-height: auto;
+  color: #fff;
 }
 
 .hero_resources .hero a {
@@ -59,27 +56,7 @@
   height: auto;
 }
 
-.hero .intro-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.hero h1 {
-  font-family: "CabinetGrotesk-Extrabold";
-  margin-bottom: 24px;
-  font-size: 64px;
-  line-height: 72px;
-}
-
-.hero p {
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.hero .links {
+.hero_resources .links {
   display: flex;
   padding-top: 1em;
   gap: 1.5em;
