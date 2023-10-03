@@ -1,0 +1,25 @@
+/* Banner Styles  */
+
+section.values {
+  padding: 0;
+  min-height: auto;
+  background-color: #28182e;
+  padding: 200px 0;
+}
+
+section.values .items-values {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+section.values .items-values p {
+  color: #fff;
+  font-size: 20px;
+  line-height: auto;
+}
+
+section.values .items-values .item img {
+  padding-bottom: 0.5em;
+  height: 150px;
+}

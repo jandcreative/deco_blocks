@@ -28,6 +28,9 @@ function jda_register_acf_blocks() {
 	// Register Result
 	register_block_type( __DIR__ . '/alpha-process' );
 
+	// Register Header Resources
+	register_block_type( __DIR__ . '/header-resources' );
+
 	// Register Result
 	register_block_type( __DIR__ . '/banner-contact' );
 
@@ -54,6 +57,12 @@ function jda_register_acf_blocks() {
 
 	// Register Grid Cases
 	register_block_type( __DIR__ . '/grid-cases' );
+
+	// Register Values
+	register_block_type( __DIR__ . '/values' );
+	
+	// Register Team
+	register_block_type( __DIR__ . '/team-slider' );
 
 }
 
