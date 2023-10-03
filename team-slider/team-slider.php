@@ -29,11 +29,11 @@ $title = get_field('title_team')
 
     <div class="block-spacer medium"></div>
 
-	<div class="container-team-members alignwide">
+	<div class="owl-carousel members-carousel container-team-members alignwide">
         
         <?php while ( have_rows('list_team_member') ) : the_row(); ?>
 
-            <div class="item-team-member">
+            <div class="item item-team-member">
 
                 <div class="image">
                     <img src="<?php the_sub_field('image_team_member');?>">
