@@ -32,9 +32,6 @@ function jda_register_acf_blocks() {
 	register_block_type( __DIR__ . '/header-resources' );
 
 	// Register Result
-	register_block_type( __DIR__ . '/banner-contact' );
-
-	// Register Result
 	register_block_type( __DIR__ . '/results' );
 
 	// Register Banner banner
@@ -63,6 +60,14 @@ function jda_register_acf_blocks() {
 	
 	// Register Team
 	register_block_type( __DIR__ . '/team-slider' );
+		
+	// Register Testimonials
+	register_block_type( __DIR__ . '/testimonials' );
 
+	// Register Header About us
+	register_block_type( __DIR__ . '/header-about' );
+
+	// Register  Header Contact
+	register_block_type( __DIR__ . '/header-contact' );
 }
 
