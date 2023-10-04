@@ -7,8 +7,9 @@
 
 .hero_book .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
+  gap: 3em;
 }
 
 .hero .intro-text {
@@ -23,6 +24,7 @@
   font-family: "CabinetGrotesk-Extrabold";
   font-size: 94px;
   line-height: 72px;
+  margin-bottom: 0;
 }
 
 .hero p {
