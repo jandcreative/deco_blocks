@@ -1,4 +1,4 @@
-section#banner .hero {
+section#banner.hero_about .hero {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -6,19 +6,19 @@ section#banner .hero {
   /* grid-template-columns: 50% 50%; */
 }
 
-section#banner .hero .pictures {
+section#banner.hero_about.hero_about .hero .pictures {
   display: flex;
   flex-basis: 32%;
   padding-top: 120px;
 }
 
-section#banner .hero .pictures img {
+section#banner.hero_about.hero_about .hero .pictures img {
   max-width: 400px;
   width: 100%;
   height: auto;
 }
 
-section#banner .hero .bubble {
+section#banner.hero_about.hero_about .hero .bubble {
   position: relative;
   background-image: url("http://flyingcat.local/wp-content/uploads/img_header_border.png");
   display: flex;
@@ -31,7 +31,7 @@ section#banner .hero .bubble {
   /*     background-color: red; */
 }
 
-section#banner .hero .bubble h1 {
+section#banner.hero_about.hero_about .hero .bubble h1 {
   font-family: "CabinetGrotesk-Extrabold";
   position: absolute;
   color: #000;
@@ -39,7 +39,7 @@ section#banner .hero .bubble h1 {
   line-height: normal;
   width: 100%;
   margin: 0 auto;
-  padding: 10% 10% 10% 22%;
+  padding: 10% 10% 10% 20%;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
