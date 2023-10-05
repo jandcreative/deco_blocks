@@ -1,8 +1,13 @@
-.hero_home {
+section#banner .hero_home .hero {
+  gap: 2em;
+}
+
+.hero_home .hero {
   background-color: var(--accent);
   min-height: 100vh;
   display: flex;
-  padding: 0 40px;
+  margin: 0 auto;
+  /*   padding: 0 40px; */
 }
 
 .hero_process {
@@ -38,7 +43,7 @@
 }
 
 .hero p {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   max-width: 700px;
 }
@@ -48,6 +53,11 @@
   color: var(--white);
   margin-bottom: 0;
   padding-bottom: var(--S);
+}
+
+.hero_home .hero p {
+  font-size: 20px;
+  line-height: normal;
 }
 
 .hero_home .hero h2 {
@@ -76,7 +86,7 @@
   border-color: var(--white);
   border-style: solid;
   line-height: 1.6em;
-  color: #fff;
+  color: var(--white);
   padding: 9px 19px;
   font-size: 20px;
   font-weight: 500;
@@ -89,7 +99,7 @@
 
 .hero a.button:hover,
 .hero a.button:focus {
-  background: #fff;
+  background: var(--white);
   box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 0.1);
   color: var(--primary);
 }
@@ -102,6 +112,49 @@
 
 .hero .kt-btn-svg-icon {
   padding-left: 0.5em;
+}
+
+.hero_home .picture {
+  position: relative;
+  background-image: url("http://flyingcat.local/wp-content/uploads/img_bubble_home.png");
+  display: flex;
+  height: 366px;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 485px;
+}
+
+.hero_home .picture .column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 15%;
+}
+
+.hero_home .picture .column img {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5em;
+}
+
+.hero_home .hero .picture .column p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.hero_home .hero .picture .column span {
+  color: var(--white);
+  font-size: 18px;
+  display: block;
+}
+
+.hero_home .hero .picture .column .info span strong {
+  font-family: "Satoshi-bold";
 }
 
 @media (max-width: 1024px) {

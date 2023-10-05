@@ -22,8 +22,6 @@ function jda_register_acf_blocks() {
 	// Register Brands block
 	register_block_type( __DIR__ . '/brands' );
 
-	// Register Result
-	register_block_type( __DIR__ . '/alpha' );
 
 	// Register Result
 	register_block_type( __DIR__ . '/alpha-process' );
@@ -63,6 +61,9 @@ function jda_register_acf_blocks() {
 		
 	// Register Testimonials
 	register_block_type( __DIR__ . '/testimonials' );
+	
+	// Register Header Result	
+	register_block_type( __DIR__ . '/header' );
 
 	// Register Header About us
 	register_block_type( __DIR__ . '/header-about' );

@@ -1,0 +1,13 @@
+{
+  "name": "header",
+  "title": "Header",
+  "description": "Header Home",
+  "style": ["file:./header.css"],
+  "category": "text",
+  "icon": "align-full-width",
+  "keywords": ["header", "home"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "header.php"
+  }
+}
