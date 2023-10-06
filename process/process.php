@@ -1,6 +1,6 @@
 <?php
 /**
- * Values Block Template.
+ * Process Block Template.
  */
 
  $anchor = '';
@@ -19,10 +19,6 @@ endif;
 
 
 ?>
-
-<style>
-
-</style>
 
 <section <?php echo $anchor;?> class="<?php echo $class_name;?>">
 
