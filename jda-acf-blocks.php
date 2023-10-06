@@ -22,6 +22,8 @@ function jda_register_acf_blocks() {
 	// Register Brands block
 	register_block_type( __DIR__ . '/brands' );
 
+	// Register Process block
+	register_block_type( __DIR__ . '/process' );
 
 	// Register Result
 	register_block_type( __DIR__ . '/alpha-process' );
@@ -70,5 +72,8 @@ function jda_register_acf_blocks() {
 
 	// Register  Header Contact
 	register_block_type( __DIR__ . '/header-contact' );
+
+	// Register  Header Contact
+	register_block_type( __DIR__ . '/phase' );
 }
 
