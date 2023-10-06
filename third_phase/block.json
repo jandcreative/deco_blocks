@@ -1,0 +1,13 @@
+{
+  "name": "third_phase",
+  "title": "Phase 03 (Text + IMG)",
+  "description": "",
+  "style": ["file:./third_phase.css"],
+  "category": "text",
+  "icon": "chart-pie",
+  "keywords": ["phase"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "third_phase.php"
+  }
+}

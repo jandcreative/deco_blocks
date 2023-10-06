@@ -1,0 +1,10 @@
+div.phase_four h2 {
+  text-align: center;
+  color: var(--accent);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+div.phase_four {
+  padding: 80px 0;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fourth_phase",
+  "title": "Phase 04 (IMG + Text)",
+  "description": "",
+  "style": ["file:./fourth_phase.css"],
+  "category": "text",
+  "icon": "chart-pie",
+  "keywords": ["phase"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "fourth_phase.php"
+  }
+}

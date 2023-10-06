@@ -73,7 +73,18 @@ function jda_register_acf_blocks() {
 	// Register  Header Contact
 	register_block_type( __DIR__ . '/header-contact' );
 
-	// Register  Header Contact
+
+	// Register First Phase
 	register_block_type( __DIR__ . '/phase' );
+
+	// Register Second Phase
+	register_block_type( __DIR__ . '/second_phase' );
+
+	// Register Third Phase
+	register_block_type( __DIR__ . '/third_phase' );
+
+	// Register Fourth Phase
+	register_block_type( __DIR__ . '/fourth_phase' );
+
 }
 
