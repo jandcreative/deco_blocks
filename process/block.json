@@ -1,0 +1,13 @@
+{
+  "name": "Process",
+  "title": "Process",
+  "description": "Describe the work process",
+  "style": ["file:./process.css"],
+  "category": "text",
+  "icon": "chart-area",
+  "keywords": ["process"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "process.php"
+  }
+}
