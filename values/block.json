@@ -4,7 +4,7 @@
   "description": "Mostramos values",
   "style": ["file:./values.css"],
   "category": "text",
-  "icon": "minus",
+  "icon": "chart-bar",
   "keywords": ["values"],
   "acf": {
     "mode": "preview",
