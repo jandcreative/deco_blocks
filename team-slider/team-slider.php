@@ -29,26 +29,27 @@ $title = get_field('title_team')
 
     <div class="block-spacer medium"></div>
 
-	<div class="owl-carousel members-carousel container-team-members alignwide">
-        
-        <?php while ( have_rows('list_team_member') ) : the_row(); ?>
+	    <div class="container-team-members">
+            <div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<?php while ( have_rows('list_team_member') ) : the_row(); ?>
+					<div class="swiper-slide item-team-member">
+						<div class="image">
+							<img src="<?php the_sub_field('image_team_member');?>">
+						</div>
+						<div class="content">
+							<h3><?php the_sub_field('name_team_member');?></h3>
+							<p><?php the_sub_field('position_team_member');?></p>
+						</div>
+					</div>
+					<?php endwhile; ?>
+				</div>
 
-            <div class="item item-team-member">
+				<!-- <div class="swiper-pagination"></div> -->
 
-                <div class="image">
-                    <img src="<?php the_sub_field('image_team_member');?>">
-                </div>
-                <div class="content">
-                    <h3><?php the_sub_field('name_team_member');?></h3>
-                    <p><?php the_sub_field('position_team_member');?></p>
-                </div>
-            <!--<div class="link">
-                     <span>Get to know Leanka</span>
-                </div> -->
-            </div>
-        
-        <?php endwhile; ?>
+		    </div>
 
-	</div>
+
+	    </div>
 
 </section>
