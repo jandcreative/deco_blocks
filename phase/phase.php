@@ -17,11 +17,12 @@ if(!empty($block['align'])):
    $class_name .= ' align' . esc_attr($block['align']);
 endif;
 
+
 ?>
 
 <section <?php echo $anchor;?> class="<?php echo $class_name;?>">
 
-	    <h2><?php the_field('title_phase_01');?></h2>
+	    <h2><?php the_field('title_section_phase_01');?></h2>
 
 		<div class="row-phase alignwide">
 			<div class="box-text">
