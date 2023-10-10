@@ -9,7 +9,6 @@
  endif;
 
 
-
 // ACF Fields
 // 01
 $image_01 = get_field('result_image_01');
@@ -35,37 +34,46 @@ $description_04 = get_field('result_description_04');
 
 <div class="grid-<?php echo $class_name;?>">
 
-<div class="item-result">
-   <div class="image">
-      <img src="<?php echo $image_01;?>">
-   </div>
-   <span class="number"><?php echo $numbers_01;?></span>
-   <span class="description"><?php echo $description_01;?></span>
-</div>
+   <div class="bubble">
+      <div class="item-result">
+         <div class="image">
+            <img src="<?php echo $numbers_01;?>">
+         </div>
+         <span class="number"><?php echo $numbers_01;?></span>
+         <span class="description"><?php echo $description_01;?></span>
+      </div>
 
-<div class="item-result">
-   <div class="image">
-    <img src="<?php echo $image_02;?>">
-   </div>
-   <span class="number"><?php echo $numbers_02;?></span>
-   <span class="description"><?php echo $description_02;?></span>
    </div>
 
-<div class="item-result">
-   <div class="image">
-      <img src="<?php echo $image_03;?>">
+   <div class="bubble">
+      <div class="item-result">
+         <div class="image">
+         <img src="<?php echo $numbers_02;?>">
+         </div>
+         <span class="number"><?php echo $numbers_02;?></span>
+         <span class="description"><?php echo $description_02;?></span>
+         </div>
    </div>
-   <span class="number"><?php echo $numbers_03;?></span>
-   <span class="description"><?php echo $description_03;?></span>
-</div>
 
-<div class="item-result">
-   <div class="image">
-      <img src="<?php echo $image_04;?>">
+   <div class="bubble">
+      <div class="item-result">
+         <div class="image">
+         <img src="<?php echo $numbers_03;?>">
+         </div>
+         <span class="number"><?php echo $numbers_03;?></span>
+         <span class="description"><?php echo $description_03;?></span>
+      </div>
    </div>
-   <span class="number"><?php echo $numbers_04;?></span>
-   <span class="description"><?php echo $description_04;?></span>
-</div>
+
+   <div class="bubble">
+      <div class="item-result">
+         <div class="image">
+         <img src="<?php echo $numbers_04;?>">
+         </div>
+         <span class="number"><?php echo $numbers_04;?></span>
+         <span class="description"><?php echo $description_04;?></span>
+      </div>
+   </div>
 
 </div>
 
