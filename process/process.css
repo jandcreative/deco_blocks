@@ -14,7 +14,7 @@ section.process .list-process {
   grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
   grid-gap: 2rem;
   cursor: pointer;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   padding: 60px 40px 0;
 }

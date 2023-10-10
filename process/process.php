@@ -17,12 +17,12 @@ if(!empty($block['align'])):
    $class_name .= ' align' . esc_attr($block['align']);
 endif;
 
-
+$title_section = get_field('title_section_process');
 ?>
 
 <section <?php echo $anchor;?> class="<?php echo $class_name;?>">
 
-	<h2>The scale to freedom process</h2>
+	<h2><?php echo $title_section?></h2>
 
 	<div class="list-process alignwide" style="color:#fff">
 
