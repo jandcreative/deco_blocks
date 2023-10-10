@@ -4,7 +4,7 @@
   "description": "Mostramos un Banner Cool",
   "style": ["file:./cta.css"],
   "category": "text",
-  "icon": "minus",
+  "icon": "megaphone",
   "keywords": ["contact"],
   "acf": {
     "mode": "preview",

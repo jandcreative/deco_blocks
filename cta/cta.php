@@ -37,13 +37,18 @@ $button = get_field('button_banner');
 				<div class="container-contact">
 					<img src="<?php echo $img;?>">
 					<h3><?php echo $title;?></h3>
-					<p><?php echo $text;?></p>
-					<button><a href="<?php echo $link;?>" target="_blank">
-					<?php echo $button;?></a></button>
+					<?php echo $text;?>
+					
+					<?php if( !empty( $button ) ): ?>
+						<button><a href="<?php echo $link;?>" target="_blank"><?php echo $button;?></a></button>
+					<?php endif; ?>
 				</div>
+		
 					
 			</div>
 
 </section>
+
+
 
 
