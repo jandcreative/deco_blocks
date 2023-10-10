@@ -4,7 +4,7 @@
   "description": "Brands",
   "style": ["file:./brands.css"],
   "category": "text",
-  "icon": "bell",
+  "icon": "buddicons-replies",
   "keywords": ["brands"],
   "acf": {
     "mode": "preview",

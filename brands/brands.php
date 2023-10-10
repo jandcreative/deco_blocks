@@ -40,6 +40,9 @@ $clutch = get_field('img_clutch');
 
 	</div>
 
+	
+	<?php if( !empty( $clients ) ): ?>
+	
 	<div class="badges">
 
 	  <div class="container">
@@ -55,14 +58,13 @@ $clutch = get_field('img_clutch');
 			<?php while ( have_rows('icons_badges') ) : the_row(); ?> 
 					<img src="<?php the_sub_field('img_badge');?>">
 			<?php endwhile; ?>
-				<!-- <img src="http://flyingcat.local/wp-content/uploads/img_badge_spain-1.png">
-				<img src="http://flyingcat.local/wp-content/uploads/img_badge_writing.png">
-				<img src="http://flyingcat.local/wp-content/uploads/img_badge_glog_services.png"> -->
 			</div>
 		</div>
 
 	  </div>
 
 	</div>
+
+	<?php endif; ?>
 
 </section>
