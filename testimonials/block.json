@@ -4,7 +4,7 @@
   "description": "Testimonial section",
   "style": ["file:./testimonials.css"],
   "category": "text",
-  "icon": "minus",
+  "icon": "format-chat",
   "keywords": ["testimonials"],
   "acf": {
     "mode": "preview",
