@@ -19,30 +19,20 @@ endif;
 
 
 // ACF Fields
-$video = get_field('video_iframe');
+$image_cat = get_field('image_cat_video');
+$title = get_field('title_video');
+$image_video = get_field('image_video');
 $html = get_field('html_video');
 ?>
 
-
-<!-- <div class="container-<?php echo $class_name;?>">
-    <?php if( !empty( $image_cat ) ): ?>
-		<img src="<?php echo $image_cat;?>">
-	<?php endif; ?>
+<div class="container-<?php echo $class_name;?>">
+	<img src="<?php echo $image_cat;?>">
 	<h2><?php echo $title;?></h2>
 	<div class="video-thumb">
 	<a class="wp-video-popup" href="#"><img src="<?php echo $image_video;?>"></a>
    <?php echo $html;?>
 	</div>
-</div> -->
-				
+</div>
+					
 
-<section class="page-block block-hero block-align-<?php echo $class_name;?> reveal reveal-opacity">
-
-	<div class="<?php echo $class_name;?>-container">
-
-		<?php echo $video;?>
-
-	</div>
-
-</section>
 

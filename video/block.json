@@ -4,7 +4,7 @@
   "description": "Video",
   "style": ["file:./video.css"],
   "category": "text",
-  "icon": "minus",
+  "icon": "video-alt3",
   "keywords": ["video"],
   "acf": {
     "mode": "preview",

@@ -11,7 +11,13 @@ section.video {
 }
 
 .container-video h2 {
-  padding: var(--S) 0 var(--L);
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 47px;
+  margin: 0;
+  padding: var(--S) 0 var(--M);
+  line-height: 48px;
+  font-weight: var(--bold);
+  text-align: center;
 }
 
 .hero-contact img {
