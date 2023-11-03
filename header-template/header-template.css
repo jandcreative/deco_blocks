@@ -1,27 +1,21 @@
 /* Hero Home */
-
-section#banner .hero_home .hero {
-  gap: 2em;
-}
-
-.hero_home .hero {
+.hero_home {
   background-color: var(--accent);
   min-height: 100vh;
   display: flex;
   margin: 0 auto;
-  /*   padding: 0 40px; */
+  padding: 0 40px;
 }
 
-
-
 .hero {
-  display: grid;
+  display: flex;
   align-items: center;
   min-height: 550px;
   position: relative;
   grid-template-columns: 1fr 300px;
   max-width: 1400px;
   gap: 2rem;
+  margin: 0 auto;
 }
 
 .hero .intro-text {
