@@ -181,11 +181,11 @@
   color: var(--primary);
 }
 
-.hero_process .hero ul{
+.hero_process .hero .text ul{
   padding-left: 15px;
 }
 
-.hero_process .hero li {
+.hero_process .hero .text li {
   font-size: 20px;
   line-height: normal;
 }
