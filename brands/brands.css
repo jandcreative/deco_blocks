@@ -22,13 +22,15 @@ section.brands h2 mark {
 }
 
 section.brands .clients {
-  padding: 0 60px 0;
+ /*  padding: 0 60px 0; */
+  padding:0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
   grid-gap: 2rem;
   cursor: pointer;
   align-items: center;
   width: 100%;
+  max-width:1400px;
   padding-bottom: 95px;
 }
 
@@ -70,6 +72,7 @@ section.brands .badges .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
 }
 
 section.brands h3 {
@@ -100,3 +103,5 @@ section.brands .clutch img {
   max-width: 200px;
   width: 100%;
 }
+
+
