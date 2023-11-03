@@ -3,7 +3,7 @@
   "title": "CTA",
   "description": "Show a cool CTA",
   "style": ["file:./cta.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "megaphone",
   "keywords": ["contact"],
   "acf": {

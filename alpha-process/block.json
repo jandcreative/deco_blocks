@@ -3,9 +3,9 @@
   "title": "Alpha Process",
   "description": "Alpha",
   "style": ["file:./alpha.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "plus",
-  "keywords": ["alpha", "process"],
+  "keywords": ["process"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "alpha-process.php"

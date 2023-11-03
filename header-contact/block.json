@@ -3,7 +3,7 @@
   "title": "Header Contact",
   "description": "Header Contact Page",
   "style": ["file:./header-contact.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "align-full-width",
   "keywords": ["contact"],
   "acf": {

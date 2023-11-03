@@ -3,7 +3,7 @@
   "title": "Results",
   "description": "Brands",
   "style": ["file:./results.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "welcome-widgets-menus",
   "keywords": ["results"],
   "acf": {

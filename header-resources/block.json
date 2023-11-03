@@ -3,7 +3,7 @@
   "title": "Header Resources",
   "description": "Header resources",
   "style": ["file:./header-resources.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "align-full-width",
   "keywords": ["header", "resources"],
   "acf": {

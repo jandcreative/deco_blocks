@@ -3,7 +3,7 @@
   "title": "Process",
   "description": "Describe the work process",
   "style": ["file:./process.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "chart-area",
   "keywords": ["process"],
   "acf": {

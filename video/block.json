@@ -3,7 +3,7 @@
   "title": "Video",
   "description": "Video",
   "style": ["file:./video.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "video-alt3",
   "keywords": ["video"],
   "acf": {

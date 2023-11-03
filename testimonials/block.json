@@ -3,7 +3,7 @@
   "title": "Testimonials",
   "description": "Testimonial section",
   "style": ["file:./testimonials.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "format-chat",
   "keywords": ["testimonials"],
   "acf": {

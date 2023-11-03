@@ -3,7 +3,7 @@
   "title": "Brands",
   "description": "Brands",
   "style": ["file:./brands.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "buddicons-replies",
   "keywords": ["brands"],
   "acf": {

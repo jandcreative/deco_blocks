@@ -3,7 +3,7 @@
   "title": "Phase 04 (IMG + Text)",
   "description": "",
   "style": ["file:./fourth_phase.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "chart-pie",
   "keywords": ["phase"],
   "acf": {
