@@ -34,9 +34,7 @@ $select = get_field('select_hero');
                echo "<h2>$content[sub_title_hero]</h2>";
             }
             ?>
-            <p>
-               <?php echo $content['description_hero']; ?>
-            </p>
+            <?php echo $content['description_hero']; ?>
 
             <div class="links">
                <a class="button" href="<?php echo $content['link_hero']; ?>">
