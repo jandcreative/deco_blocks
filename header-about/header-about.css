@@ -3,6 +3,7 @@ section#banner.hero_about .hero {
   justify-content: center;
   margin: 0 auto;
   gap: 0;
+  height: 60vh;
   /* grid-template-columns: 50% 50%; */
 }
 
@@ -20,15 +21,16 @@ section#banner.hero_about.hero_about .hero .pictures img {
 
 section#banner.hero_about.hero_about .hero .bubble {
   position: relative;
-  background-image: url("http://flyingcat.local/wp-content/uploads/img_header_border.png");
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/img_bubble_about_us.png");
+  /*background-image: url("http://flyingcat.local/wp-content/uploads/img_header_border.png"); */
   display: flex;
   height: 320px;
   align-items: center;
   background-size: contain;
   background-repeat: no-repeat;
   flex-shrink: 0;
-  width: 690px;
-  /*     background-color: red; */
+  width: 681px;
+  /* background-color: red; */
 }
 
 section#banner.hero_about.hero_about .hero .bubble h1 {
