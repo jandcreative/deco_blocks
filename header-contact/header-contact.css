@@ -10,6 +10,7 @@
   justify-content: flex-start;
   width: 100%;
   gap: 3em;
+  margin: 0 auto;
 }
 
 .hero .intro-text {
