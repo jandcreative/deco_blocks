@@ -6,7 +6,8 @@ section.case-study {
 }
 
 section.case-study .thumb {
-  flex-basis: 55%;
+  flex-basis: 50%;
+  /* flex-basis: 55%; */
   background-color: var(--grey);
   height: 100%;
   display: flex;
@@ -19,6 +20,7 @@ section.case-study .thumb {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: flex-end;
 }
 
 section.case-study .thumb .box-brand .brand img {
@@ -28,11 +30,17 @@ section.case-study .thumb .box-brand .brand img {
 section.case-study .thumb .box-brand {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 40px;
   justify-content: center;
-  flex-basis: 600px;
+  /* flex-basis: 600px; */
   text-align: left;
   justify-content: space-between;
+  gap: 3em;
+  width: 740px;
+}
+
+section.case-study .thumb .box-brand h2 {
+  max-width: 400px;
 }
 
 section.case-study .thumb .box-brand span.number-help {
@@ -69,10 +77,11 @@ section.case-study .thumb .box-brand h2 {
 }
 
 section.case-study .testimonial {
-  flex-basis: 45%;
+  width: 800px;
   align-items: center;
   display: flex;
   border-radius: 40px;
+  flex-shrink: 0;
 }
 
 section.case-study .cut-cat {
@@ -86,15 +95,28 @@ section.case-study .cut-cat img {
 section.case-study .testimonial .item-testimonial {
   background-color: #fff;
   border-radius: 15px;
-  max-width: 800px;
-  margin: 4em auto;
+  max-width: 580px;
+  margin: 0 auto;
   height: auto;
-  padding: 40px;
+  /* padding: 40px; */
+}
+
+section.case-study .testimonial .item-testimonial .content {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/border_case_study.png");
+  display: flex;
+  height: 380px;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 4em;
+  justify-content: center;
 }
 
 section.case-study .testimonial .item-testimonial p {
-  padding: 1.5em;
-  /*  border: 2px solid #000; */
+  padding: 0 2em 0;
   border-radius: 40px;
   font-size: 20px;
 }
@@ -107,7 +129,6 @@ section.case-study .testimonial .item-testimonial .info-profile {
   display: flex;
   gap: var(--S);
   align-items: center;
-  padding-top: var(--L);
   width: fit-content;
   margin: 0 auto;
 }
@@ -125,11 +146,6 @@ section.case-study .testimonial .item-testimonial .info-profile .txt span.name {
   font-size: 20px;
 }
 
-section.case-study
-  .testimonial
-  .item-testimonial
-  .info-profile
-  .txt
-  span.position {
+section.case-study .testimonial .item-testimonial .info-profile .txt span.position {
   font-size: 18px;
 }
