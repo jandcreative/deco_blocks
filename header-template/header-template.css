@@ -43,7 +43,14 @@
 .hero_home .hero p {
   color: var(--white);
   margin-bottom: 0;
+}
+
+.hero_home .hero h1{
   padding-bottom: var(--S);
+}
+
+.hero_process .hero p{
+  padding-bottom: var(--XS);
 }
 
 .hero_home .hero p {
@@ -58,7 +65,6 @@
   padding-bottom: var(--M);
   font-size: 30px;
 }
-
 
 
 .hero .links {
@@ -183,6 +189,7 @@
 
 .hero_process .hero .text ul{
   padding-left: 15px;
+  margin-bottom: var(--S);
 }
 
 .hero_process .hero .text li {
