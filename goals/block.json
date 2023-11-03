@@ -3,7 +3,7 @@
   "title": "Goals",
   "description": "Goals acomplished.",
   "style": ["file:./goals.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "dashboard",
   "keywords": ["goals", "completed"],
   "acf": {
