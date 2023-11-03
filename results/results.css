@@ -7,6 +7,10 @@
   flex-direction: revert;
 }
 
+section.pink .custom-columns.alignwide {
+  justify-content: space-between;
+}
+
 .grid-results .bubble {
   position: relative;
   background-size: contain;
