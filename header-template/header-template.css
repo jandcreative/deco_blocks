@@ -181,6 +181,15 @@
   color: var(--primary);
 }
 
+.hero_process .hero ul{
+  padding-left: 15px;
+}
+
+.hero_process .hero li {
+  font-size: 20px;
+  line-height: normal;
+}
+
 .hero_process .picture {
   position: relative;
   background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/img_bubble_services-1.svg");
