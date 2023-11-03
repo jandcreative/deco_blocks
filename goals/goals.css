@@ -17,7 +17,7 @@ section#goals .container-goals {
 
 section#goals .item-faq {
   border-bottom: 3px solid var(--primary);
-  max-width: 1080px;
+  max-width: 100%;
   width: 100%;
   position: relative;
   margin-bottom: var(--M);
