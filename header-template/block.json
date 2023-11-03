@@ -1,0 +1,13 @@
+{
+  "name": "header-template",
+  "title": "Header Template",
+  "description": "Header Home",
+  "style": ["file:./header-template.css"],
+  "category": "flyingcat_block_category",
+  "icon": "align-full-width",
+  "keywords": ["header"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "header-template.php"
+  }
+}
