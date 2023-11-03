@@ -17,7 +17,7 @@ endif;
 // ACF Fields
 $brand = get_field('brand');
 $content = get_field('content');
-$select = get_field('hero_select');
+$select = get_field('select_hero');
 
 ?>
 
@@ -27,16 +27,21 @@ $select = get_field('hero_select');
 
          <div class="text">
             <h1>
-               <?php echo $content['hero_title']; ?>
+               <?php echo $content['title_hero']; ?>
             </h1>
-            <h2>
-               <?php echo $content['hero_sub_title']; ?>
-            </h2>
 
-            <?php echo $content['hero_description']; ?>
+            <?php if ($select === "hero_home") {
+               echo "<h2>$content[sub_title_hero]</h2>";
+            }
+            ?>
+            <p>
+               <?php echo $content['description_hero']; ?>
+            </p>
 
             <div class="links">
-               <a class="button" href="#">Check out our process</a>
+               <a class="button" href="<?php echo $content['link_hero']; ?>">
+                  <?php echo $content['button_hero']; ?>
+               </a>
             </div>
          </div>
 
@@ -45,17 +50,18 @@ $select = get_field('hero_select');
       <?php if ($brand): ?>
 
          <div class="picture">
+            <div class="avatar-brand"><img src="<?php echo $brand['hero_avatar_brand']; ?>"></div>
             <div class="column">
-               <img src="https://jandcreative-dev.com/flyingcat/wp-content/uploads/logo_operto_white.svg">
+               <img src="<?php echo $brand['logo_brand_hero']; ?>">
                <p>
-                  <?php echo $brand['hero_text_brand']; ?><!-- Their approach led to a significant increase in monthly revenue and contributed to our rapid growth. -->
+                  <?php echo $brand['text_brand_hero']; ?>
                </p>
                <div class="info">
                   <span class="name"><strong>
-                        <?php echo $brand['hero_name_brand']; ?><!-- Robert Hartman -->
+                        <?php echo $brand['name_brand_hero']; ?>
                      </strong></span>
                   <span class="position">
-                     <?php echo $brand['hero_position_brand']; ?><!-- Former Creative Director -->
+                     <?php echo $brand['position_brand_hero']; ?>
                   </span>
                </div>
             </div>
