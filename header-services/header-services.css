@@ -1,0 +1,121 @@
+.hero_services {
+  background-color: var(--yellow-olive);
+}
+
+.hero_services .hero {
+  min-height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  gap: 4em;
+}
+
+.hero_services .hero .picture .column p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.hero .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-family: "CabinetGrotesk-Extrabold";
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: left;
+}
+
+.hero p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.hero_home .hero h1,
+.hero_home .hero p {
+  color: var(--white);
+}
+
+.hero_services .hero h1,
+.hero_services .hero p {
+  color: var(--primary);
+}
+
+.hero_services .hero a.button {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.hero_services .picture {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/ming_bubble_cat.svg");
+  display: flex;
+  height: 538px;
+  align-items: start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 680px;
+}
+
+.hero_services .container {
+  display: flex;
+  gap: 4em;
+}
+
+.hero_services .picture mark {
+  text-align: left;
+  font-family: "Satoshi-bold";
+  font-size: 21px;
+  display: block;
+  padding-bottom: 14px;
+}
+
+.hero_services .picture .column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  padding: 7%;
+}
+
+.hero_services .picture mark {
+  text-align: left;
+}
+
+.hero_services .picture .column h1 {
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.hero_services .hero .picture .column p {
+  font-size: 20px;
+  line-height: normal;
+  color: var(--primary);
+}
+
+.hero_home .hero .picture .column .info span strong {
+  font-family: "Satoshi-bold";
+}
+
+.hero_services .picture .column img {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5em;
+}
+
+.hero_services .hero .picture .column span {
+  color: var(--primary);
+  font-size: 18px;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+
+}
