@@ -26,9 +26,9 @@ $text_banner = get_field('text_banner_services');
       <div class="container">
          <div class="picture">
             <div class="column">
-               <mark>
+               <span>
                   <?php echo $sub_title_services; ?>
-               </mark>
+               </span>
                <h1>
                   <?php echo $title_services; ?>
                </h1>

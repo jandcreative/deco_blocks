@@ -1,0 +1,59 @@
+/*  Case Study Styles * /
+
+section.case-study .testimonial .item-testimonial {
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 580px;
+  margin: 0 auto;
+  height: auto;}
+  /* padding: 40px; 
+ 
+*/
+section.case-study .testimonial .item-testimonial .content {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/border_case_study.png");
+  display: flex;
+  height: 380px;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 4em;
+  justify-content: center;
+}
+
+section.case-study .testimonial .item-testimonial p {
+  padding: 0 2em 0;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span {
+  display: block;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile {
+  display: flex;
+  gap: var(--S);
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .avatar img {
+  border-radius: 50%;
+  width: 85px;
+  display: initial;
+  line-height: auto;
+  height: auto;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span.name {
+  font-weight: var(--bold);
+  font-size: 20px;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span.position {
+  font-size: 18px;
+}

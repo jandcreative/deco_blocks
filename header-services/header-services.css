@@ -8,6 +8,7 @@
   margin: 0 auto;
   width: 100%;
   gap: 4em;
+  padding: 0 40px;
 }
 
 .hero_services .hero .picture .column p {
@@ -51,7 +52,7 @@
   border-color: var(--primary);
 }
 
-.hero_services .picture {
+/* .hero_services .picture {
   position: relative;
   background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/ming_bubble_cat.svg");
   display: flex;
@@ -61,14 +62,28 @@
   background-repeat: no-repeat;
   flex-shrink: 0;
   width: 680px;
+} */
+
+.hero_services .picture {
+    position: relative;
+    background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/ming_bubble_cat.svg");
+    display: flex;
+    height: 600px;
+    align-items: start;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    width: 730px;
+   /*  width: 740px; */
 }
+
 
 .hero_services .container {
   display: flex;
   gap: 4em;
 }
 
-.hero_services .picture mark {
+.hero_services .picture span {
   text-align: left;
   font-family: "Satoshi-bold";
   font-size: 21px;
@@ -76,16 +91,22 @@
   padding-bottom: 14px;
 }
 
-.hero_services .picture .column {
+/* .hero_services .picture .column {
   display: flex;
   flex-direction: column;
   text-align: left;
   position: relative;
   padding: 7%;
-}
+} */
 
-.hero_services .picture mark {
+.hero_services .picture .column {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  position: relative;
+  padding: 6% 6% 7% 7%;
+  /* padding: 10% 7% 7%; */
+  justify-content: center;
 }
 
 .hero_services .picture .column h1 {
@@ -101,6 +122,20 @@
 
 .hero_home .hero .picture .column .info span strong {
   font-family: "Satoshi-bold";
+}
+
+.text ul {
+  margin-left: 20px;
+}
+
+.text li {
+  font-size: 21px;
+  line-height: 30px;
+  padding-bottom: 8px;
+}
+
+.text li strong {
+  font-weight: 700;
 }
 
 .hero_services .picture .column img {
