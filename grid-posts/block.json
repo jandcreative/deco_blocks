@@ -3,7 +3,7 @@
   "title": "Grid Posts",
   "description": "Add grid posts.",
   "style": ["file:./grid-posts.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "share-alt",
   "keywords": ["grid"],
   "acf": {
