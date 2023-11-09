@@ -1,0 +1,13 @@
+{
+  "name": "grid-posts",
+  "title": "Grid Posts",
+  "description": "Add grid posts.",
+  "style": ["file:./grid-posts.css"],
+  "category": "text",
+  "icon": "share-alt",
+  "keywords": ["grid"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "grid-posts.php"
+  }
+}
