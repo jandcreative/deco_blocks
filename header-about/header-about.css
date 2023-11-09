@@ -1,8 +1,8 @@
 section#banner.hero_about .hero {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0 auto;
-  gap: 0;
+  gap: 3em;
   height: 60vh;
   /* grid-template-columns: 50% 50%; */
 }
@@ -14,7 +14,7 @@ section#banner.hero_about.hero_about .hero .pictures {
 }
 
 section#banner.hero_about.hero_about .hero .pictures img {
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
   height: auto;
 }
