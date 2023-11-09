@@ -1,0 +1,13 @@
+{
+  "name": "testimonials-swipper",
+  "title": "Testimonials Swipper",
+  "description": "Testimonial section",
+  "style": ["file:./testimonials-swipper.css"],
+  "category": "flyingcat_block_category",
+  "icon": "format-chat",
+  "keywords": ["testimonials"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "testimonials-swipper.php"
+  }
+}
