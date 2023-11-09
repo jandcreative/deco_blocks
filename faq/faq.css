@@ -80,6 +80,11 @@ section#faq .description-ask p {
   transition: opacity 0.4s ease-in-out;
 }
 
+
+section#faq .description-ask p a{
+  color: #fff;
+}
+
 section#faq .active .description-ask p {
   opacity: 1;
 }
