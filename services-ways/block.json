@@ -1,0 +1,13 @@
+{
+  "name": "services-ways",
+  "title": "Four Services Ways",
+  "description": "Four Services Ways",
+  "style": ["file:./services-ways.css"],
+  "category": "flyingcat_block_category",
+  "icon": "minus",
+  "keywords": ["services"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "services-ways.php"
+  }
+}
