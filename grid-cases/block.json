@@ -3,7 +3,7 @@
   "title": "Grid Cases",
   "description": "Add grid cases.",
   "style": ["file:./grid-cases.css"],
-  "category": "text",
+  "category": "flyingcat_block_category",
   "icon": "share-alt",
   "keywords": ["grid"],
   "acf": {
