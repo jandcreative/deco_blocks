@@ -21,9 +21,9 @@ section.grid-posts .frame {
 
 section.grid-posts .frame .content {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
-  height: 360px;
+  height: 250px;
   padding: 3rem;
 }
 

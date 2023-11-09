@@ -103,9 +103,11 @@ $url_04 = get_field('url_04');
             <p style="color:<?php echo $color_01; ?>">
                <?php echo $text_01; ?>
             </p>
-            <a style="color:<?php echo $color_01; ?>" href="<?php echo $url_01; ?>">
-               <?php echo $link_01; ?>
-            </a>
+            <?php if (!empty($url_01)): ?>
+               <a style="color:<?php echo $color_01; ?>" href="<?php echo $url_01; ?>">
+                  <?php echo $link_01; ?>
+               </a>
+            <?php endif; ?>
             <?php if (!empty($img_cat_01)): ?>
                <div class="img_cat" style="justify-content:<?php echo $align_cat_01; ?>">
                   <img src="<?php echo $img_cat_01; ?>">
@@ -127,9 +129,11 @@ $url_04 = get_field('url_04');
             <p style="color:<?php echo $color_02; ?>">
                <?php echo $text_02; ?>
             </p>
-            <a style="color:<?php echo $color_02; ?>" href="<?php echo $url_02; ?>">
-               <?php echo $link_02; ?>
-            </a>
+            <?php if (!empty($url_02)): ?>
+               <a style="color:<?php echo $color_02; ?>" href="<?php echo $url_02; ?>">
+                  <?php echo $link_02; ?>
+               </a>
+            <?php endif; ?>
             <?php if (!empty($img_cat_02)): ?>
                <div class="img_cat" style="justify-content:<?php echo $align_cat_02; ?>">
                   <img src="<?php echo $img_cat_02; ?>">
@@ -151,9 +155,11 @@ $url_04 = get_field('url_04');
             <p style="color:<?php echo $color_03; ?>">
                <?php echo $text_03; ?>
             </p>
-            <a style="color:<?php echo $color_03; ?>" href="<?php echo $url_03; ?>">
-               <?php echo $link_03; ?>
-            </a>
+            <?php if (!empty($url_03)): ?>
+               <a style="color:<?php echo $color_03; ?>" href="<?php echo $url_03; ?>">
+                  <?php echo $link_03; ?>
+               </a>
+            <?php endif; ?>
             <?php if (!empty($img_cat_03)): ?>
                <div class="img_cat" style="justify-content:<?php echo $align_cat_03; ?>">
                   <img src="<?php echo $img_cat_03; ?>">
@@ -176,9 +182,11 @@ $url_04 = get_field('url_04');
             <p style="color:<?php echo $color_04; ?>">
                <?php echo $text_04; ?>
             </p>
-            <a style="color:<?php echo $color_04; ?>" href="<?php echo $url_04; ?>">
-               <?php echo $link_04; ?>
-            </a>
+            <?php if (!empty($url_04)): ?>
+               <a style="color:<?php echo $color_04; ?>" href="<?php echo $url_04; ?>">
+                  <?php echo $link_04; ?>
+               </a>
+            <?php endif; ?>
             <?php if (!empty($img_cat_04)): ?>
                <div class="img_cat" style="justify-content:<?php echo $align_cat_04; ?>">
                   <img src="<?php echo $img_cat_04; ?>">
