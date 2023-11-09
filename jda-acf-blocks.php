@@ -41,11 +41,17 @@ function jda_register_acf_blocks()
 	// Register Video
 	register_block_type(__DIR__ . '/video');
 
+	// Services Ways
+	register_block_type(__DIR__ . '/services-ways');
+
 	// Register CTA
 	register_block_type(__DIR__ . '/cta');
 
 	// Register Cabecera  block
 	register_block_type(__DIR__ . '/case-study');
+
+	// Register Bubble Content block
+	register_block_type(__DIR__ . '/bubble-content');
 
 	// Register FAQ
 	register_block_type(__DIR__ . '/faq');
@@ -56,6 +62,12 @@ function jda_register_acf_blocks()
 	// Register Grid Cases
 	register_block_type(__DIR__ . '/grid-cases');
 
+	// Register Grid Portfolio
+	register_block_type(__DIR__ . '/grid-portfolio');
+
+	// Register Grid Posts
+	register_block_type(__DIR__ . '/grid-posts');
+
 	// Register Values
 	register_block_type(__DIR__ . '/values');
 
@@ -64,6 +76,9 @@ function jda_register_acf_blocks()
 
 	// Register Testimonials
 	register_block_type(__DIR__ . '/testimonials');
+
+	// Register Testimonials Swipper
+	register_block_type(__DIR__ . '/testimonials-swipper');
 
 	// Register First Phase
 	register_block_type(__DIR__ . '/phase');
