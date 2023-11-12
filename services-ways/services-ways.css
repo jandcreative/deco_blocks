@@ -1,21 +1,27 @@
 /* Services Ways Styles  */
 
+/* Top Section */
 section.services-ways{
   padding: 80px 0 0;
 }
 
-.container-services-ways {
+section.services-ways .container-services-ways {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
 
-.container-services-ways span{
+section.services-ways .container-services-ways img {
+  max-width: 180px;
+  width: 100%;
+}
+
+section.services-ways .container-services-ways span{
   display: block;
   font-size: 20px;
 } 
 
-.container-services-ways h2 {
+section.services-ways .container-services-ways h2 {
   font-family: "CabinetGrotesk-Extrabold";
   font-size: 47px;
   margin: 0;
@@ -27,7 +33,20 @@ section.services-ways{
   color: var(--accent);
 }
 
-ul.tabs {
+/* Tabs Section */
+
+.tabs_content_pane {
+  line-height: 25px;
+  text-align: left;
+  display: none;
+}
+
+.tabs-ways-sections ul.tabs li.tabs_item {
+  text-align: center;
+  list-style: none;
+}
+
+.tabs-ways-sections ul.tabs {
   display: grid;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -35,27 +54,31 @@ ul.tabs {
   margin-bottom: 2em;
 }
 
-.tabs-ways-sections li a{
+.is_active {
+  display: block;
+}
+
+.tabs-ways-sections ul.tabs li a{
   font-family: "CabinetGrotesk-Extrabold";
   font-size: 36px;
   color: var(--primary);
   cursor: pointer;
 }
 
-.tabs-ways-sections li a:hover{
+.tabs-ways-sections ul.tabs li a:hover{
   color: var(--accent);
 }
 
-.tabs-ways-sections li a.is_selected{
+.tabs-ways-sections ul.tabs li a.is_selected{
   color: var(--accent);
 }
 
-.tabs-ways-sections .grid-container {
+.tabs-ways-sections .tabs_content .grid-container {
   display: flex;
   gap: 2em;
 }
 
-.tabs-ways-sections .container-about {
+.tabs-ways-sections .tabs_content .grid-container .container-about {
   flex-direction: column;
   flex-basis: 40%;
   background-color: var(--accent);
@@ -64,8 +87,9 @@ ul.tabs {
   display: flex;
 }
 
-.tabs-ways-sections .box-about {
-  display: flex;
+/* About */
+
+.container-about .box-about {
   flex-direction: column;
   padding: 0 40px;
   justify-content: center;
@@ -73,68 +97,35 @@ ul.tabs {
   width: 360px;
 }
 
-.tabs-ways-sections .box-about h3{
+.container-about .box-about h3{
   margin-bottom: 2em;
   color:#fff;
 }
 
-.tabs-ways-sections .box-about ul{
-  margin-left: 15px;
+.container-about .box-about ul{
   margin-bottom: 2em;
   color:#fff;
 }
 
-.tabs-ways-sections .box-about ul li{
+.container-about .box-about ul li{
   font-size: 18px;
   color:#fff;
   padding-bottom: 0.5em;
-}
-
-
-.frame-testimonial .content{
-  padding-top: 2em;
-}
-
-.frame-testimonial .content p{
-  font-size: 20px;
-  line-height: 30px;
-}
-
-
-.frame-testimonial .row-avatar {
+  list-style: none;
   display: flex;
-  gap: 2em;
-  align-items: center;
 }
 
-.frame-testimonial .row-avatar  span.number-help {
-  display: block;
-  font-family: "CabinetGrotesk-Extrabold";
-  font-size: 47px;
-  margin: 0;
-  padding: 0 0 var(--M);
-  line-height: 48px;
-  font-weight: var(--bold);
-  color: var(--primary);
-  padding-bottom: var(--XS);
-}
-
-
-.grid-container .container-testimonials {
-  width: 100%;
-  max-width: 100%;;
+.container-about .box-about i.fa-check::before {
+  content: "\f00c";
+  font-size: 15px;
   position: relative;
-  margin: inherit;
-  overflow: hidden;
-  padding: 40px;
+  left: 0;
+  margin-right: 8px;
+  top: 4px;
+  color: var(--white);
 }
 
-.grid-container .container-testimonials  .box-testimonials {
-  max-width: 1000px;
-  width: 100%;
-}
-
-.tabs-ways-sections a.button {
+.tabs-ways-sections .container-about .box-about  a.button {
   font-family: "Satoshi-bold";
   padding: 0.4em 1em;
   background: transparent;
@@ -150,69 +141,107 @@ ul.tabs {
   text-decoration: none;
 }
 
-.tabs-ways-sections .container-about h3,
-.tabs-ways-sections .container-about li,
-.tabs-ways-sections .container-about p{
-  color: #fff;
-}
+/* Testimonials */
 
-.tabs_content_pane {
-  line-height: 25px;
-  text-align: left;
-  display: none;
-}
-
-.is_active {
-  display: block;
-}
-
-li.tabs_item {
-  text-align: center;
-  list-style: none;
-}
-
-.hero-contact img {
-  max-width: 280px;
+.grid-container .container-testimonials {
   width: 100%;
-  padding-bottom: var(--S);
+  max-width: 100%;;
+  position: relative;
+  margin: inherit;
+  overflow: hidden;
+  padding: 40px;
 }
 
-.wp-block-services-ways {
-  margin: 0 0 1em;
-  max-width: 800px;
-  border-radius: 40px;
-}
-
-.wp-block-services-ways video {
-  width: 100%;
-  border-radius: 40px;
-}
-
-.container-services-ways img {
-  max-width: 180px;
+.grid-container .container-testimonials  .box-testimonials {
+  max-width: 1000px;
   width: 100%;
 }
 
-.frame-testimonial .content .position p{
+
+.container-testimonials .frame-testimonial .row-avatar {
   display: flex;
-  flex-direction: column;
+  gap: 2em;
+  align-items: center;
 }
 
-
-.row-avatar .avatar img {
+.container-testimonials .frame-testimonial .row-avatar .avatar img {
   width: 100px;
   height: auto;
 }
 
-
-.row-avatar .brand img {
+.container-testimonials .frame-testimonial .row-avatar .brand img {
     width: 110px;
 }
 
-.container-services-ways .video-thumb img {
-  max-width: 780px;
-  width: 100%;
+.container-testimonials .frame-testimonial .row-avatar  span.number-help {
+  display: block;
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 47px;
+  margin: 0;
+  padding: 0 0 var(--M);
+  line-height: 48px;
+  font-weight: var(--bold);
+  color: var(--primary);
+  padding-bottom: var(--XS);
+}
+
+.container-testimonials .frame-testimonial .separator {
+  text-align: center;
+}
+
+.container-testimonials .frame-testimonial .separator img {
+  height: 9px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-testimonials .frame-testimonial .row-content {
+  display: flex;
+  padding-top: 2em;
+  gap: 0.8em;
+}
+
+.container-testimonials .frame-testimonial .row-content .content p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container-testimonials .frame-testimonial .row-content .position p{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-testimonials .frame-testimonial .row-content .icon img {
+  width: 34px;
   height: auto;
+}
+
+
+
+
+/* Dots */
+.container-testimonials .owl-nav,
+.container-testimonials .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.container-testimonials .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.container-testimonials .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.container-testimonials .owl-dot.active {
+  background-color: #000;
+  border: 2px solid #000;
 }
 
 
