@@ -19,10 +19,11 @@ endif;
 
 
 // ACF Fields
-$image_cat = get_field('image_cat_video');
-$title = get_field('title_video');
+$html_about_01 = get_field('box_about_01');
 $image_video = get_field('image_video');
-$html = get_field('html_video');
+/* $title = get_field('title_video');
+
+$html = get_field('html_video'); */
 ?>
 
 <section class="services-ways">
@@ -56,270 +57,83 @@ $html = get_field('html_video');
 			</li>
 		</ul>
 		<div class="tabs_content">
-			<div id="tab_one" class="tabs_content_pane is_active">
-
-				<div class="grid-container">
-
-					<div class="container-about">
-						<div class="box-about">
-							<h3>We'll create and manage the strategy, as well as produce and optimize all content assets
-								needed.</h3>
-
-							<ul>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-							</ul>
-
-							<a class="button" href="#">Find out more</a>
-
-						</div>
-
-					</div>
-
-					<div class="container-testimonials">
-
-						<div class="box-testimonials">
-
-							<div class="frame-testimonial">
-
-								<div class="row-avatar">
-
-									<div class="avatar">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_avatar_black.png">
-									</div>
-
-									<div class="brand">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_case_koyo.png">
-									</div>
-
-									<span class="number-help">56%</span>
-
-									<p>Growth and position
-										as a thought leader</p>
-
-								</div>
 
 
-								<div class="content">
-									<p>
-										Maeva, Leanka and the whole team at Flying Cat have been superb from the start.
-										Their positivity and love for their work is what stands out the most. The
-										perfect match for our business at the stage of growth we're at today. I'd
-										happily recommend them to anyone looking to kick-start their content and SEO
-										strategy from scratch. </p>
 
-									<div class="position">
-										<p><strong>
-												Iker Sattler. </strong>
-											Editorial Lead, Hotjar </p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-			</div>
 			<div id="tab_two" class="tabs_content_pane">
 				<div class="grid-container">
 
 					<div class="container-about">
 						<div class="box-about">
-							<h3>We'll create and manage the strategy, as well as produce and optimize all content assets
-								needed.</h3>
-
-							<ul>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-							</ul>
-
-							<a class="button" href="#">Find out more</a>
-
+							<?php echo $html_about_01; ?>
 						</div>
 
 					</div>
 
 					<div class="container-testimonials">
 
-						<div class="box-testimonials">
 
-							<div class="frame-testimonial">
+						<div class="owl-carousel owl-reponsive box-testimonials">
+							<?php while (have_rows('list_services_01')):
+								the_row(); ?>
 
-								<div class="row-avatar">
+								<div class="frame-testimonial">
+									<div class="row-avatar">
 
-									<div class="avatar">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_avatar_black.png">
+										<div class="avatar">
+											<img decoding="async"
+												src="http://flyingcat.local/wp-content/uploads/img_avatar_black.png">
+										</div>
+
+										<div class="brand">
+											<img decoding="async"
+												src="http://flyingcat.local/wp-content/uploads/img_case_koyo.png">
+										</div>
+
+										<span class="number-help">56%</span>
+
+										<p>Growth and position
+											as a thought leader</p>
+
 									</div>
 
-									<div class="brand">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_case_koyo.png">
+									<div class="separator">
+										<img src="http://flyingcat.local/wp-content/uploads/icon_separator.svg">
 									</div>
 
-									<span class="number-help">56%</span>
+									<div class="row-content">
+										<div class="icon"><img
+												src="http://flyingcat.local/wp-content/uploads/icon_quotes.svg">
+										</div>
+										<div class="content">
 
-									<p>Growth and position
-										as a thought leader</p>
+											<p>
+												Misha, Leanka and the whole team at Flying Cat have been superb from the
+												start.
+												Their positivity and love. </p>
 
+											<div class="position">
+												<p><strong>
+														Misha Díaz. </strong>
+													Editorial Lead, Hotjar </p>
+											</div>
+										</div>
+									</div>
 								</div>
 
-
-								<div class="content">
-									<p>
-										Misha, Leanka and the whole team at Flying Cat have been superb from the start.
-										Their positivity and love. </p>
-
-									<div class="position">
-										<p><strong>
-												Misha Díaz. </strong>
-											Editorial Lead, Hotjar </p>
-									</div>
-								</div>
-							</div>
-
+							<?php endwhile; ?>
 						</div>
 
+
 					</div>
+
 
 				</div>
-			</div>
-			<div id="tab_three" class="tabs_content_pane">
-				<div class="grid-container">
 
-					<div class="container-about">
-						<div class="box-about">
-							<h3>We'll create and manage the strategy, as well as produce and optimize all content assets
-								needed.</h3>
-
-							<ul>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-							</ul>
-
-							<a class="button" href="#">Find out more</a>
-
-						</div>
-
-					</div>
-
-					<div class="container-testimonials">
-
-						<div class="box-testimonials">
-
-							<div class="frame-testimonial">
-
-								<div class="row-avatar">
-
-									<div class="avatar">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_avatar_black.png">
-									</div>
-
-									<div class="brand">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_case_koyo.png">
-									</div>
-
-									<span class="number-help">56%</span>
-
-									<p>Growth and position
-										as a thought leader</p>
-
-								</div>
-
-
-								<div class="content">
-									<p>
-										Misha, Leanka and the whole team at Flying Cat have been superb from the start.
-										Their positivity and love. </p>
-
-									<div class="position">
-										<p><strong>
-												Misha Díaz. </strong>
-											Editorial Lead, Hotjar </p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-			<div id="tab_four" class="tabs_content_pane">
-				<div class="grid-container">
-
-					<div class="container-about">
-						<div class="box-about">
-							<h3>We'll create and manage the strategy, as well as produce and optimize all content assets
-								needed.</h3>
-
-							<ul>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-								<li>Audit and strategy</li>
-							</ul>
-
-							<a class="button" href="#">Find out more</a>
-
-						</div>
-
-					</div>
-
-					<div class="container-testimonials">
-
-						<div class="box-testimonials">
-
-							<div class="frame-testimonial">
-
-								<div class="row-avatar">
-
-									<div class="avatar">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_avatar_black.png">
-									</div>
-
-									<div class="brand">
-										<img decoding="async"
-											src="http://flyingcat.local/wp-content/uploads/img_case_koyo.png">
-									</div>
-
-									<span class="number-help">56%</span>
-
-									<p>Growth and position
-										as a thought leader</p>
-
-								</div>
-
-
-								<div class="content">
-									<p>
-										Misha, Leanka and the whole team at Flying Cat have been superb from the start.
-										Their positivity and love. </p>
-
-									<div class="position">
-										<p><strong>
-												Misha Díaz. </strong>
-											Editorial Lead, Hotjar </p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
 			</div>
 		</div>
+
 	</div>
+
+
 </section>
