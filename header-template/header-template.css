@@ -35,12 +35,12 @@
 }
 
 
-.hero h1 mark{
+.hero_home .hero h1 mark{
   color: #fff;
   position: relative;
 }
 
-.hero h1 mark::after{
+.hero_home .hero h1 mark::after{
 content: '';
 position: absolute;
 bottom: -0.125rem;
