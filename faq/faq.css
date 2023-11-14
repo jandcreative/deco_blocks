@@ -45,7 +45,7 @@ section#faq .item-faq .plus img {
   height: 26px;
 }
 
-section#faq .description-ask {
+section#faq .question-box .description-ask {
   padding-top: 0;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ section#faq .description-ask {
   transition: max-height 0.4s ease-in-out;
 }
 
-section#faq .active .description-ask {
+section#faq .question-box.active .description-ask {
   max-height: fit-content;
   overflow: visible;
   padding-bottom: 20px;
@@ -72,7 +72,7 @@ section#faq .question-box.active span.plus {
   transition: 0.8s;
 }
 
-section#faq .description-ask p {
+section#faq .question-box .description-ask p {
   font-family: "Satoshi-regular";
   opacity: 0;
   color: var(--white);
@@ -81,10 +81,29 @@ section#faq .description-ask p {
 }
 
 
-section#faq .description-ask p a{
+section#faq .question-box .description-ask p a{
   color: #fff;
 }
 
-section#faq .active .description-ask p {
+section#faq .question-box.active .description-ask p {
   opacity: 1;
+}
+
+
+section#faq .question-box.active .description-ask li{
+  font-size: 18px;
+    color: #fff;
+    padding-bottom: 0.5em;
+    list-style: none;
+    display: flex;
+}
+
+section#faq .question-box.active .description-ask li i.fa-check::before {
+  content: "\f00c";
+  font-size: 15px;
+  position: relative;
+  left: 0;
+  margin-right: 8px;
+  top: 4px;
+  color: var(--white);
 }
