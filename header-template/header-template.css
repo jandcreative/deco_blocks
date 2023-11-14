@@ -144,6 +144,30 @@ p a:hover svg.link-svgline {
   font-size: 30px;
 }
 
+.hero_home .hero .text ul{
+  margin-top: var(--S);
+  margin-bottom: var(--S);
+  margin-left: 0;
+}
+
+.hero_home .hero .text li {
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  gap: 0.5em;
+  font-weight: 700;
+  padding-bottom:10px;
+  color:#fff;
+}
+
+.hero_home .hero .text li i.check {
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/icon_list_header_home.svg");
+  background-repeat: no-repeat;
+  min-width: 24px;
+  height: 25px;
+  top: 2px;
+  position: relative;
+}
 
 .hero .links {
   display: flex;
@@ -266,13 +290,28 @@ p a:hover svg.link-svgline {
 }
 
 .hero_process .hero .text ul{
-  padding-left: 15px;
+  margin-top: var(--S);
   margin-bottom: var(--S);
+  margin-left: 0;
 }
 
 .hero_process .hero .text li {
   font-size: 20px;
   line-height: normal;
+  display: flex;
+  gap: 0.5em;
+  font-weight: 700;
+  padding-bottom:10px
+}
+
+
+.hero_process .hero .text li i.check {
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/icon_list_header.svg");
+  background-repeat: no-repeat;
+  min-width: 24px;
+  height: 25px;
+  top: 2px;
+   position: relative;
 }
 
 .hero_process .picture {
