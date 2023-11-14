@@ -4,7 +4,7 @@
   "description": "Four Services Ways",
   "style": ["file:./services-ways.css"],
   "category": "flyingcat_block_category",
-  "icon": "dashicons-block-default",
+  "icon": "block-default",
   "keywords": ["services"],
   "acf": {
     "mode": "preview",
