@@ -1,0 +1,56 @@
+section.publications {
+  min-height: auto;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding-bottom: var(--L);
+}
+
+
+section.publications cite{
+  font-style: italic;
+  font-size: 48px;
+  padding-bottom: 60px;
+  max-width: 1000px;
+}
+
+
+section.publications .clients {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(188px, 2fr));
+  grid-gap: 2em 1em;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+section.publications .client {
+  text-align: center;
+}
+
+section.publications h2{
+  padding-bottom: 60px;
+}
+
+section.publications .client img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+section.publications .client img:hover {
+  transform: scale(1.05);
+}
+

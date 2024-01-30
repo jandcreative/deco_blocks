@@ -1,0 +1,14 @@
+{
+  "name": "publications",
+  "title": "Publicaciones",
+  "description": "Listado de publicaciones que hablan de nosotros.",
+  "style": ["file:./publications.css"],
+  "category": "decotherapy_block_category",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["publicaciones"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "publications.php"
+  }
+}
+
