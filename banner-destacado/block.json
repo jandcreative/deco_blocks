@@ -1,0 +1,14 @@
+{
+  "name": "banner-destacado",
+  "title": "Banners destacados",
+  "description": "Banner destacado",
+  "style": ["file:./banner-destacado.css"],
+  "category": "decotherapy_block_category",
+  "icon": "cover-image",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "banner-destacado.php"
+  }
+}
+
