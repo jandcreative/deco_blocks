@@ -1,0 +1,13 @@
+{
+  "name": "espaciador",
+  "title": "Espaciador",
+  "description": "Crea diferentes espacios entre elementos.",
+  "style": ["file:./espaciador.css"],
+  "category": "decotherapy_block_category",
+  "icon": "minus",
+  "keywords": ["espaciador"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "espaciador.php"
+  }
+}

@@ -1,0 +1,21 @@
+/* Espaciador Styles  */
+
+.block-spacer.xxl {
+  height: 180px;
+}
+
+.block-spacer.xl {
+  height: 120px;
+}
+
+.block-spacer.big {
+  height: 60px;
+}
+
+.block-spacer.medium {
+  height: 30px;
+}
+
+.block-spacer.small {
+  height: 15px;
+}
