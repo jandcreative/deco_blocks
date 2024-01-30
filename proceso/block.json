@@ -1,0 +1,13 @@
+{
+  "name": "Proceso",
+  "title": "Proceso",
+  "description": "Proceso de Decotherapy",
+  "style": ["file:./proceso.css"],
+  "category": "decotherapy_block_category",
+  "icon": "chart-area",
+  "keywords": ["proceso"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "proceso.php"
+  }
+}

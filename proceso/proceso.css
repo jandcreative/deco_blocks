@@ -1,0 +1,79 @@
+section.process {
+  text-align: center;
+}
+
+section.process .list-process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-gap: 2rem;
+  cursor: pointer;
+  align-items: baseline;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+section.process .list-process .item-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+  text-align: center;
+}
+
+section.process .list-process .item-process .content{
+  text-align: left;
+}
+
+section.process a{
+  font-family: "Marbry-bold";
+    color: #fff;
+    border-radius: 10px;
+    background-color: var(--cta);
+    border: 1px solid var(--cta);
+    padding: 7px 16px;
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+section.process a:hover{
+  text-decoration: underline;
+}
+
+
+/* @media only screen and (max-width: 980px) {
+
+  section.process {
+    padding: 60px 0;
+  }
+
+  section.process .list-process .item-process p {
+    min-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  section.process .list-process {
+    padding: 20px;
+  }
+
+  section.process {
+    padding: 40px 0;
+  }
+
+  section.process .list-process .title {
+    display: block;
+    height: 35px;
+    margin-bottom: 0;
+  }
+
+  section.process .list-process .item-process p {
+    min-height: auto;
+  }
+
+  section.process button a {
+    font-size: 18px;
+  }
+} */
