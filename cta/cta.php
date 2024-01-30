@@ -3,46 +3,43 @@
  * CTA Block Template.
  */
 
- $anchor = '';
- if ( !empty( $block['anchor'] ) ):
-    $anchor = 'id="' . esc_attr( $block['anchor'] ) . '" ';
- endif;
+$anchor = '';
+if (!empty($block['anchor'])):
+	$anchor = 'id="' . esc_attr($block['anchor']) . '" ';
+endif;
 
- $class_name = 'banner';
- if( !empty($block['className'] ) ):
-    $class_name .= ' ' . esc_attr( $block['className'] );
- endif;
+$class_name = 'banner';
+if (!empty($block['className'])):
+	$class_name .= ' ' . esc_attr($block['className']);
+endif;
 
-if(!empty($block['align'])):
-   $class_name .= ' align' . esc_attr($block['align']);
+if (!empty($block['align'])):
+	$class_name .= ' align' . esc_attr($block['align']);
 endif;
 
 // ACF Fields
-$color = get_field('background_color');
-$img = get_field('image_banner');
-$title = get_field('title_banner');
-$text = get_field('text_banner');
-$link = get_field('link_banner');
-$button = get_field('button_banner');
+$image_cta = get_field('image_banner_cta');
+$title_cta = get_field('title_banner_cta');
+$button_cta = get_field('button_banner_cta');
+$link_cta = get_field('link_banner_cta');
 ?>
 
 
-<section <?php echo $anchor;?> id="banner" class="<?php echo $class_name;
+<section <?php echo $anchor; ?> class="alignwide">
+	<div class="banner" style="background-image: url(<?php echo $image_cta; ?>)">
 
-?>">
+		<div class="box-container">
+			<h2>
+				<?php echo $title_cta; ?>
+			</h2>
 
-			<div class="hero-contact"  style="background-color:#ff0049">
+			<?php if (!empty($button_cta)): ?>
+				<a class="button" href="<?php echo $link_cta; ?>">
+					<?php echo $button_cta; ?>
+				</a>
+			<?php endif; ?>
+		</div>
 
-				<div class="container-contact">
-					<img src="<?php echo $img;?>">
-					<h3 style="color:#fff"><?php echo $title;?></h3>
-					<p><?php echo $text;?></p>
-					<button><a style="color:#fff" href="<?php echo $link;?>" target="_blank">
-					<?php echo $button;?></a></button>
-				</div>
-					
-			</div>
+	</div>
 
 </section>
-
-

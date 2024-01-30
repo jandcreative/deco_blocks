@@ -1,66 +1,45 @@
-/* Banner Styles  */
+/* CTA Styles  */
 
-section.banner {
-  padding: 0;
-  min-height: auto;
-}
 
-.hero-contact {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+section .banner{
   position: relative;
-  max-width: 100%;
-  width: 100%;
-  background-color: var(--accent);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 100px 20px 120px;
+  height: 380px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
-.hero-contact .container-contact {
-  max-width: 580px;
-  margin: 0 auto;
+section .banner .box-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 780px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 40px 20px;
   text-align: center;
 }
 
-.hero-contact h3 {
-  font-size: 47px;
-  margin: 0;
-  padding: 0 0 var(--L);
-  line-height: 48px;
-  font-weight: var(--bold);
-  color: var(--white);
+section .banner a.button {
+    font-family: "Marbry-bold";
+    padding: 8px 16px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
-.hero-contact img {
-  max-width: 280px;
-  width: 100%;
+
+section .banner a.button:hover{
+  text-decoration: underline;
+}
+
+section .banner h2{
+  font-family: "Marbry-bold";
+  font-size: 48px;
+  text-align: center;
   padding-bottom: var(--S);
-}
-
-.hero-contact p {
-  font-size: 22px;
-  line-height: 30px;
-  text-align: center;
-  color: #fff;
-  font-weight: 100;
-  line-height: 30px;
-}
-
-.hero-contact button {
-  background-color: transparent;
-  padding: 10px 25px;
-  margin-bottom: 0;
-  border: 2px solid var(--white);
-  margin-top: 15px;
-  border-radius: 100px;
-}
-
-.hero-contact button a {
-  font-family: "Satoshi-bold";
-  color: var(--white);
-  font-size: 20px;
-  text-decoration: none;
 }

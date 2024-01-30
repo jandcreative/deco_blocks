@@ -1,11 +1,11 @@
 {
   "name": "CTA",
-  "title": "CTA",
-  "description": "Mostramos un Banner Cool",
+  "title": "CTA (Imagen Fondo)",
+  "description": "Banner CTA",
   "style": ["file:./cta.css"],
-  "category": "text",
-  "icon": "minus",
-  "keywords": ["contact"],
+  "category": "decotherapy_block_category",
+  "icon": "megaphone",
+  "keywords": ["cta"],
   "acf": {
     "mode": "preview",
     "renderTemplate": "cta.php"
