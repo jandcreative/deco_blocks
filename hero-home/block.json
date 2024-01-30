@@ -1,0 +1,13 @@
+{
+  "name": "Hero Home",
+  "title": "Hero Home",
+  "description": "Hero Home",
+  "style": ["file:./hero-home.css"],
+  "category": "decotherapy_block_category",
+  "icon": "megaphone",
+  "keywords": ["hero"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hero-home.php"
+  }
+}
