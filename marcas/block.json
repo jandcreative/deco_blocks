@@ -1,0 +1,13 @@
+{
+  "name": "marcas",
+  "title": "Marcas",
+  "description": "Listado de marcas favoritas de nuestros clientes.",
+  "style": ["file:./marcas.css"],
+  "category": "decotherapy_block_category",
+  "icon": "buddicons-replies",
+  "keywords": ["marcas"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "marcas.php"
+  }
+}

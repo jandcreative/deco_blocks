@@ -1,0 +1,46 @@
+section.marcas {
+  min-height: auto;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section.marcas h2{
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+section.marcas .clients {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(157px, 3fr));
+  grid-gap: 2em 1em;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+}
+
+section.marcas .client {
+  text-align: center;
+}
+
+
+section.marcas .client img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+section.marcas .client img:hover {
+  transform: scale(1.05);
+}
+
