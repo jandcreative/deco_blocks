@@ -1,0 +1,13 @@
+{
+  "name": "faq",
+  "title": "FAQ",
+  "description": "Add FAQ.",
+  "style": ["file:./faq.css"],
+  "category": "flyingcat_block_category",
+  "icon": "format-status",
+  "keywords": ["faq", "questions"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "faq.php"
+  }
+}

@@ -1,0 +1,94 @@
+.hero_resources {
+  background-color: var(--accent);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+  align-items: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hero_resources .hero {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero_resources .content h1 {
+  font-family: "CabinetGrotesk-Extrabold";
+  color: #fff;
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.hero_resources .hero p {
+  max-width: 100%;
+  line-height: auto;
+  color: #fff;
+}
+
+.hero_resources .hero a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.hero_resources .hero .box-logo {
+  width: 100%;
+}
+
+.hero_resources .hero .tags {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+}
+
+.hero_resources .hero .tags li {
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #fff;
+}
+
+.hero_resources .hero .box-logo img {
+  max-width: 180px;
+  height: auto;
+}
+
+.hero_resources .links {
+  display: flex;
+  padding-top: 1em;
+  gap: 1.5em;
+}
+
+.hero_resources .hero p.entry-meta {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.hero_resources .hero p.entry-meta img {
+  height: auto;
+  border-radius: 50%;
+}
+
+p.entry-meta picture {
+  padding: 0 0.5em;
+}
+
+.hero_resources .cut-cat {
+  position: absolute;
+  bottom: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: fit-content;
+}
+
+.hero_resources .cut-cat img {
+  width: 120px;
+}

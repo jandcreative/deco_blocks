@@ -1,0 +1,13 @@
+{
+  "name": "third_phase",
+  "title": "Phase 03 (Text + IMG)",
+  "description": "",
+  "style": ["file:./third_phase.css"],
+  "category": "flyingcat_block_category",
+  "icon": "chart-pie",
+  "keywords": ["phase"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "third_phase.php"
+  }
+}

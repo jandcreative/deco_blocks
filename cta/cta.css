@@ -1,6 +1,5 @@
 /* CTA Styles  */
 
-
 section .banner{
   position: relative;
   height: 380px;
@@ -31,7 +30,6 @@ section .banner a.button {
     border-radius: 10px;
     text-decoration: none;
 }
-
 
 section .banner a.button:hover{
   text-decoration: underline;

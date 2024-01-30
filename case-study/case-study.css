@@ -1,0 +1,151 @@
+/* Case Study Styles  */
+
+section.case-study {
+  display: flex;
+  height: 800px;
+}
+
+section.case-study .thumb {
+  flex-basis: 50%;
+  /* flex-basis: 55%; */
+  background-color: var(--grey);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  background-image: url("");
+  max-width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+
+section.case-study .thumb .box-brand .brand img {
+  max-width: 150px;
+}
+
+section.case-study .thumb .box-brand {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  /* flex-basis: 600px; */
+  text-align: left;
+  justify-content: space-between;
+  gap: 3em;
+  width: 740px;
+}
+
+section.case-study .thumb .box-brand h2 {
+  max-width: 400px;
+}
+
+section.case-study .thumb .box-brand span.number-help {
+  display: block;
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 47px;
+  margin: 0;
+  padding: 0 0 var(--M);
+  line-height: 48px;
+  font-weight: var(--bold);
+  color: var(--white);
+  padding-bottom: var(--XS);
+}
+
+section.case-study .thumb .box-brand button {
+  background-color: transparent;
+  padding: 10px 25px;
+  margin-bottom: 0;
+  border: 2px solid var(--white);
+  margin-top: 15px;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+section.case-study .thumb .box-brand a {
+  font-family: "Satoshi-bold";
+  color: var(--white);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+section.case-study .thumb .box-brand h2 {
+  color: var(--white);
+}
+
+section.case-study .testimonial {
+  width: 800px;
+  align-items: center;
+  display: flex;
+  border-radius: 40px;
+  flex-shrink: 0;
+}
+
+section.case-study .cut-cat {
+  text-align: center;
+}
+
+section.case-study .cut-cat img {
+  max-width: 90px;
+}
+
+section.case-study .testimonial .item-testimonial {
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 580px;
+  margin: 0 auto;
+  height: auto;
+  /* padding: 40px; */
+}
+
+section.case-study .testimonial .item-testimonial .content {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/border_case_study.png");
+  display: flex;
+  height: 380px;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 4em;
+  justify-content: center;
+}
+
+section.case-study .testimonial .item-testimonial p {
+  padding: 0 2em 0;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span {
+  display: block;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile {
+  display: flex;
+  gap: var(--S);
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .avatar img {
+  border-radius: 50%;
+  width: 85px;
+  display: initial;
+  line-height: auto;
+  height: auto;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span.name {
+  font-weight: var(--bold);
+  font-size: 20px;
+}
+
+section.case-study .testimonial .item-testimonial .info-profile .txt span.position {
+  font-size: 18px;
+}

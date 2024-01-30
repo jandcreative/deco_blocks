@@ -1,0 +1,13 @@
+{
+  "name": "results",
+  "title": "Results",
+  "description": "Brands",
+  "style": ["file:./results.css"],
+  "category": "flyingcat_block_category",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["results"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "results.php"
+  }
+}

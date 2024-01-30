@@ -1,0 +1,94 @@
+section.process {
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+section.process h2 {
+  text-align: center;
+  color: var(--accent);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section.process .list-process {
+  padding: 0 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  grid-gap: 2rem;
+  cursor: pointer;
+  align-items: baseline;
+  width: 100%;
+  padding: 60px 40px 20px;
+}
+
+section.process .list-process .title{
+    display: block;
+    height: 60px;
+    margin-bottom: 0.5em;
+}
+
+section.process .list-process .duration {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+  gap: 0.5em;
+}
+
+section.process .list-process .duration img {
+  width: 45px;
+}
+
+section.process .list-process .duration span.time {
+  color: var(--primary);
+  font-size: 19px;
+}
+
+section.process .list-process .item-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  text-align: center;
+}
+
+section.process .list-process .item-process  .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+section.process .list-process .item-process h3 {
+  font-size: 24px;
+  color: var(--accent);
+  line-height: normal;
+}
+
+section.process .list-process .item-process p {
+  font-size: 20px;
+  color: var(--primary);
+  line-height: normal;
+  padding-bottom: 0;
+  min-height: 80px;
+}
+
+
+section.process button {
+  background-color: transparent;
+  padding: 10px 25px;
+  margin-bottom: 0;
+  border: 2px solid var(--primary);
+  margin-top: 15px;
+  border-radius: 100px;
+}
+
+section.process button a {
+  font-family: "Satoshi-bold";
+  color: var(--primary);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+section.process button a:hover{
+  text-decoration: underline;
+}

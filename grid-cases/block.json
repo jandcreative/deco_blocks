@@ -1,0 +1,13 @@
+{
+  "name": "grid-cases",
+  "title": "Grid Cases",
+  "description": "Add grid cases.",
+  "style": ["file:./grid-cases.css"],
+  "category": "flyingcat_block_category",
+  "icon": "share-alt",
+  "keywords": ["grid"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "grid-cases.php"
+  }
+}

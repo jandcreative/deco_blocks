@@ -1,0 +1,393 @@
+/* Hero Home */
+.hero_home {
+  background-color: var(--accent);
+  min-height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 550px;
+  position: relative;
+  grid-template-columns: 1fr 300px;
+  max-width: 1400px;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.hero .intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  display: block;
+  font-family: "CabinetGrotesk-Extrabold";
+  margin-bottom: 24px;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+
+.hero_home .hero h1 mark{
+  color: #fff;
+  position: relative;
+}
+
+.hero_home .hero h1 mark::after{
+content: '';
+position: absolute;
+bottom: -0.125rem;
+left: -0.5rem;
+right: -0.5rem;
+height: 0.75rem;
+/* 
+// Position the line behind the text so that
+// it is still easily readable */
+z-index: 10;
+/* 
+// The SVG is added as an SVG background image */
+background-image: url('https://jandcreative-dev.com/flyingcat/wp-content/uploads/custom_border.svg');
+background-repeat: no-repeat;
+
+/* // This allows the SVG to flex in size to fit
+// any length of word. If the word is short,
+// the SVG will be stretched vertically, if it
+// is long, the SVG will be stretched horizontally.
+// The jagged nature of this particular SVG works
+// with this transforming. */
+background-size: cover;
+}
+
+/* .hero h1 mark::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 100%;
+  height: auto;
+  /* transform: scaleY(0); */
+  /* transition: transform .3s
+  z-index: 10;
+  background-image: url("http://flyingcat.local/wp-content/uploads/custom_border.svg");
+  background-repeat: no-repeat;
+  background-size: 50% 200%;
+  /* margin-top: 25px; 
+}
+*/
+
+
+
+
+/* p a svg.link-svgline {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  height: 20px; 
+  transition: stroke-dashoffset 0.3s ease-in-out;
+  transform: translateY(-90%);
+  fill: none;
+  stroke: #b1d474;
+  stroke-width: 5;
+  stroke-dasharray: 400px; 
+  stroke-dashoffset: 400px;
+}
+
+p a:hover svg.link-svgline {
+  stroke-dashoffset: 0px; 
+}
+    
+ */
+
+
+
+
+.hero p {
+  font-size: 20px;
+  line-height: 36px;
+  max-width: 700px;
+}
+
+.hero_home .hero h1,
+.hero_home .hero p {
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.hero_home .hero h1{
+  padding-bottom: var(--S);
+}
+
+.hero_process .hero p{
+  padding-bottom: var(--XS);
+}
+
+.hero_home .hero p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.hero_home .hero h2 {
+  font-family: "Satoshi-black";
+  color: var(--white);
+  margin-bottom: 0;
+  padding-bottom: var(--M);
+  font-size: 30px;
+}
+
+.hero_home .hero .text ul{
+  margin-top: var(--S);
+  margin-bottom: var(--S);
+  margin-left: 0;
+}
+
+.hero_home .hero .text li {
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  gap: 0.5em;
+  font-weight: 700;
+  padding-bottom:10px;
+  color:#fff;
+}
+
+.hero_home .hero .text li i.check {
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/icon_list_header_home.svg");
+  background-repeat: no-repeat;
+  min-width: 24px;
+  height: 25px;
+  top: 2px;
+  position: relative;
+}
+
+.hero .links {
+  display: flex;
+  padding-top: 1em;
+  gap: 1.5em;
+}
+
+.hero a.button {
+  font-family: "Satoshi-bold";
+  padding: 0.4em 1em;
+  background: transparent;
+  border-color: var(--white);
+  border-style: solid;
+  line-height: 1.6em;
+  color: var(--white);
+  padding: 9px 19px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px -7px rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.hero a.button:hover,
+.hero a.button:focus {
+  background: transparent!important;
+  box-shadow: 0px 15px 25px -7px rgba(0, 0, 0, 0.1);
+  color: #fff!important;
+  text-decoration: underline;
+}
+
+.hero a.button.action {
+  color: #222222;
+  border-color: #222222;
+  background-color: transparent;
+}
+
+.hero .kt-btn-svg-icon {
+  padding-left: 0.5em;
+}
+
+.hero_home .avatar-brand {
+  position: absolute;
+  top:0;
+  left: 2.9em;
+}
+
+.hero_home .avatar-brand img {
+  width: 108px;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.hero_home .picture {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/img_bubble_home-1.png");
+  display: flex;
+  height: 366px;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 485px;
+}
+
+.hero_home .picture .column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 15%;
+}
+
+.hero_home .picture .column img {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5em;
+}
+
+.hero_home .hero .picture .column p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.hero_home .hero .picture .column span {
+  color: var(--white);
+  font-size: 18px;
+  display: block;
+}
+
+.hero_home .hero .picture .column .info span strong {
+  font-family: "Satoshi-bold";
+}
+
+
+/* Hero Process */
+
+.hero_process {
+  background-color: var(--pink);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 40px;
+}
+
+.hero_process .hero {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  gap: 4em;
+}
+
+.hero_process .hero h1,
+.hero_process .hero p {
+  color: var(--primary);
+}
+
+.hero_process .hero .text ul{
+  margin-top: var(--S);
+  margin-bottom: var(--S);
+  margin-left: 0;
+}
+
+.hero_process .hero .text li {
+  font-size: 20px;
+  line-height: normal;
+  display: flex;
+  gap: 0.5em;
+  font-weight: 700;
+  padding-bottom:10px
+}
+
+
+.hero_process .hero .text li i.check {
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/icon_list_header.svg");
+  background-repeat: no-repeat;
+  min-width: 24px;
+  height: 25px;
+  top: 2px;
+   position: relative;
+}
+
+.hero_process .picture {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/img_bubble_services-1.svg");
+  display: flex;
+  height: 509px;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 450px;
+}
+
+.hero_process .picture .column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 10%;
+}
+
+.hero_process .hero .picture .column p {
+  font-size: 19px;
+  line-height: normal;
+  color: var(--primary);
+}
+
+.hero_process .hero a.button {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.hero_process .hero a.button:hover, 
+.hero_process .hero a.button:focus{
+  color:var(--primary)!important;
+  text-decoration: underline;
+}
+
+.hero_home .hero .picture .column .info span strong {
+  font-family: "Satoshi-bold";
+}
+
+.hero_process .picture .column img {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.5em;
+}
+
+.hero_process .hero .picture .column span {
+  color: var(--primary);
+  font-size: 18px;
+  display: block;
+}
+
+
+.hero_process .avatar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero_process .avatar-brand img {
+  width: 108px;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

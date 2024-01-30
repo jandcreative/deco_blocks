@@ -1,0 +1,50 @@
+/* Video Styles  */
+
+section.video {
+  padding: 80px 0;
+}
+
+.container-video {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-video h2 {
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 47px;
+  margin: 0;
+  padding: var(--S) 0 var(--XL);
+  line-height: 48px;
+  font-weight: var(--bold);
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-contact img {
+  max-width: 280px;
+  width: 100%;
+  padding-bottom: var(--S);
+}
+
+.wp-block-video {
+  margin: 0 0 1em;
+  max-width: 800px;
+  border-radius: 40px;
+}
+
+.wp-block-video video {
+  width: 100%;
+  border-radius: 40px;
+}
+
+.container-video img {
+  max-width: 180px;
+  width: 100%;
+}
+
+.container-video .video-thumb img {
+  max-width: 780px;
+  width: 100%;
+  height: auto;
+}

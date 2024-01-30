@@ -1,0 +1,45 @@
+section.grid-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.grid-cases div p {
+  font-family: "Satoshi-bold";
+  font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-cases div a {
+  font-family: "Satoshi-bold";
+  font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-cases .frame {
+  position: relative;
+}
+
+section.grid-cases .frame .content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 360px;
+  padding: 3rem;
+}
+
+section.grid-cases .frame .content span {
+  font-size: 18px;
+  line-height: normal;
+  display: block;
+  padding-bottom: 0.25em;
+}
+
+section.grid-cases .frame .img_cat {
+  position: relative;
+  display: flex;
+  padding-top: 3em;
+}
+
+section.grid-cases .frame .img_cat img {
+  max-width: 120px;
+}

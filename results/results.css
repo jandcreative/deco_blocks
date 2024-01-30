@@ -1,0 +1,67 @@
+.grid-results {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1.5em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: revert;
+}
+
+section.pink .custom-columns.alignwide {
+  justify-content: space-between;
+}
+
+.grid-results .bubble {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/border_results.svg");
+  display: flex;
+  width: calc(50% - 1.5em);
+  height: 233px;
+  background-position: center;
+}
+
+.grid-results .item-result {
+  position: relative;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.grid-results .bubble:nth-child(even) {
+  margin-top: 4em;
+}
+
+.grid-results .item-result .image {
+  padding-bottom: 1em;
+}
+
+.grid-results .item-result img {
+  max-width: 120px;
+  width: 100%;
+}
+
+.grid-results .item-result span {
+  display: block;
+}
+
+.grid-results .item-result span.number {
+  font-family: "CabinetGrotesk-Extrabold";
+  font-size: 42px;
+  color: var(--primary);
+  line-height: 50px;
+}
+
+.grid-results .item-result span.description {
+  font-size: 20px;
+  color: #2d2d2d;
+  font-size: 20px;
+  line-height: 27px;
+  display: block;
+}
+
+.custom-columns {
+  gap: 5.5em;
+}

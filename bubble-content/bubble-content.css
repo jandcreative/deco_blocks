@@ -1,0 +1,39 @@
+/*  Case Study Styles */
+
+.bubble-content{
+  max-width: 580px;
+}
+
+.bubble-content .cut-cat {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.bubble-content .cut-cat img {
+  max-width: 90px;
+}
+
+.bubble-content .content {
+  position: relative;
+  background-image: url("https://jandcreative-dev.com/flyingcat/wp-content/uploads/img_bubble_content.svg");
+  display: flex;
+  height: 380px;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 4em 2em 4em 8em;
+  justify-content: center;
+}
+
+.bubble-content .content li {
+  font-size: 20px;
+  padding-bottom: 15px;
+  line-height: normal;
+}
+
+.bubble-content .content p {
+ font-size: 20px;
+ padding-bottom: 15px;
+}

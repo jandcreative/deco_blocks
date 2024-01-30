@@ -1,0 +1,13 @@
+{
+  "name": "bubble-content",
+  "title": "Bubble Content",
+  "description": "Show Bubble Content.",
+  "style": ["file:./bubble-content.css"],
+  "category": "flyingcat_block_category",
+  "icon": "format-quote",
+  "keywords": ["bubble content"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "bubble-content.php"
+  }
+}

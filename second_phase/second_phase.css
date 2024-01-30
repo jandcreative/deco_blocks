@@ -1,0 +1,12 @@
+div.phase_two {
+  padding: 80px 0;
+}
+
+div.phase_two .row-phase .box-image {
+  flex-direction: column;
+}
+
+div.phase_two .row-phase .box-image .frame-activities {
+  padding-top: 3em;
+  text-align: left;
+}

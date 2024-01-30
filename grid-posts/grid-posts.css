@@ -1,0 +1,45 @@
+section.grid-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section.grid-posts div p {
+  font-family: "Satoshi-bold";
+  font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-posts div a {
+  font-family: "Satoshi-bold";
+  font-size: 18px;
+  line-height: normal;
+}
+
+section.grid-posts .frame {
+  position: relative;
+}
+
+section.grid-posts .frame .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  padding: 3rem;
+}
+
+section.grid-posts .frame .content span {
+  font-size: 18px;
+  line-height: normal;
+  display: block;
+  padding-bottom: 0.25em;
+}
+
+section.grid-posts .frame .img_cat {
+  position: relative;
+  display: flex;
+  padding-top: 3em;
+}
+
+section.grid-posts .frame .img_cat img {
+  max-width: 120px;
+}

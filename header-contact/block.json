@@ -1,0 +1,13 @@
+{
+  "name": "header-contact",
+  "title": "Header Contact",
+  "description": "Header Contact Page",
+  "style": ["file:./header-contact.css"],
+  "category": "flyingcat_block_category",
+  "icon": "align-full-width",
+  "keywords": ["contact"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "header-contact.php"
+  }
+}

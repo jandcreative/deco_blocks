@@ -1,0 +1,13 @@
+{
+  "name": "Values",
+  "title": "Values",
+  "description": "Mostramos values",
+  "style": ["file:./values.css"],
+  "category": "text",
+  "icon": "chart-bar",
+  "keywords": ["values"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "values.php"
+  }
+}

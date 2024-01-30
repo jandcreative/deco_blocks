@@ -1,0 +1,13 @@
+{
+  "name": "Phase",
+  "title": "Phase (Text + IMG)",
+  "description": "",
+  "style": ["file:./phase.css"],
+  "category": "text",
+  "icon": "chart-pie",
+  "keywords": ["phase"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "phase.php"
+  }
+}
