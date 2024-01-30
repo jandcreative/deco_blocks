@@ -1,0 +1,14 @@
+{
+  "name": "maps",
+  "title": "Localizacion",
+  "description": "Localizacion",
+  "style": ["file:./localizacion.css"],
+  "category": "decotherapy_block_category",
+  "icon": "admin-site-alt",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "localizacion.php"
+  }
+}
+

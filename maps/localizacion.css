@@ -1,0 +1,39 @@
+.localizacion .list-localizacion {
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.localizacion .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.localizacion .content .item{
+    padding-bottom: 3em;
+}
+
+.localizacion .content h3{
+    margin-bottom: 16px
+}
+
+.localizacion .content a{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.localizacion .content a:hover{
+    text-decoration: underline;
+}
+
+.localizacion .list-localizacion .social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.localizacion .list-localizacion .social-icons i {
+    font-size: 32px;
+    color: var(--accent);
+}
+
