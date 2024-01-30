@@ -1,0 +1,191 @@
+.list-decopacks {
+    display: flex;
+    /* grid-template-columns: 1fr 25% 25% 25%; */
+    gap: 1em;
+}
+
+
+.list-decopacks .item {
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.cita{
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.item-decopack {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFE8DA;
+    padding: 0 1em;
+    gap: 1em;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+
+.item-decopack img {
+    max-width: 280px;
+    width: 100%;
+}
+
+
+.item-table{
+    display: flex;
+    flex-direction: column;
+    background-color: #EFE8DA;
+    padding: 0 1em;
+    gap: 1em;
+    position: relative;
+}
+
+
+.decopacks.personal .item-decopack.destacado{
+    border: 6px solid var(--accent);
+    border-bottom: 0;
+}
+
+.decopacks.personal .list-decopacks.table .item-decopack.destacado{
+    border: 6px solid var(--accent);
+    border-top:0;
+    border-bottom:0;
+}
+
+.decopacks.personal .list-decopacks.button .item-decopack.destacado{
+    border: 6px solid var(--accent);
+    border-top:0;
+}
+
+
+.decopacks.company .item-decopack.destacado{
+    border: 6px solid #B29E83;
+    border-bottom: 0;
+}
+
+.decopacks.company .list-decopacks.table .item-decopack.destacado{
+    border: 6px solid #B29E83;
+    border-top:0;
+    border-bottom:0;
+}
+
+.decopacks.company .list-decopacks.button .item-decopack.destacado{
+    border: 6px solid #B29E83;;
+    border-top:0;
+}
+
+
+.list-decopacks .item-decopack {
+    border-radius: 15px 15px 0 0;
+}
+
+.item-decopack h3 {
+    font-size: 32px;
+}
+
+.list-decopacks.table .item-decopack {
+    border-radius: 0;
+}
+
+.list-decopacks.button .item-decopack {
+    border-radius: 0 0 15px 15px;
+}
+
+.decopacks.personal .item-decopack.destacado span.label{
+    background-color: var(--accent);
+    font-family: "Marbry-bold";
+    width: fit-content;
+    padding: 0.5em 1em;
+    color: #fff;
+    right: -1px;
+    position: absolute;
+    border-radius: 0 10px 0 10px;
+    top: -2px;
+}
+
+.decopacks.company .item-decopack.destacado span.label{
+    background-color: #B29E83;
+    font-family: "Marbry-bold";
+    width: fit-content;
+    padding: 0.5em 1em;
+    color: #fff;
+    right: -1px;
+    position: absolute;
+    border-radius: 0 10px 0 10px;
+    top: -2px;
+}
+
+.item-decopack .img {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.item-decopack .content {
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-decopacks.button .item-decopack .content {
+    align-items: center;
+}
+
+.table-decopacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.list-decopacks.table {
+    border-bottom: 1px solid var(--accent);
+}
+
+.list-decopacks.table .item {
+    padding: 0.8em 0;
+}
+
+
+.list-decopacks.table .item p{
+    margin:0;
+}
+
+.list-decopacks.table .item-decopack{
+    align-items: center;
+    justify-content: center;
+}
+
+.list-decopacks.table .item-decopack p{
+    padding:0;
+    margin-bottom: 0;
+}
+
+.frame-table .list-decopacks.table:last-child{
+    border-bottom: 0;
+}
+
+.list-decopacks.button  {
+    padding-bottom: 1.5em;
+}
+
+.button-decopack{
+    font-family: "Marbry-bold";
+    color: #fff;
+    border-radius: 10px;
+    background-color: var(--cta);
+    border: 1px solid var(--cta);
+    padding: 7px 16px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.button-decopack:hover{
+    text-decoration: underline;
+}
+
+.list-decopacks.button .item-decopack{
+    padding-bottom: 1.5em;
+}
