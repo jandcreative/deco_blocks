@@ -1,0 +1,13 @@
+{
+  "name": "testimonios",
+  "title": "Testimonios",
+  "description": "Testimonios",
+  "style": ["file:./testimonios.css"],
+  "category": "decotherapy_block_category",
+  "icon": "format-chat",
+  "keywords": ["testimonios"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "testimonios.php"
+  }
+}
