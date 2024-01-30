@@ -1,0 +1,53 @@
+.item-accordion{
+  background-color: var(--beige);
+  display: flex;
+  height: auto;
+  padding: var(--S);
+  margin-bottom: var(--S-M);
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.grid-columns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+}
+
+
+.item-accordion h2{
+  font-family: "Marbry-regular";
+  font-size: 24px;
+  color: var(--primary);
+}
+
+
+.items-accordion .description p{
+  opacity: 0;
+  margin-bottom: 0;
+  transition: opacity .4s ease-in-out;
+}
+
+.question-box .description{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 0;
+    transition: max-height .4s ease-in-out;
+}
+
+.question-box.active .description{
+  max-height: fit-content;
+  overflow: visible;
+  padding-bottom: 20px;
+}
+
+.question-box.active .description p {
+  opacity: 1;
+}

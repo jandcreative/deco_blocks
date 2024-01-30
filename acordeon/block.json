@@ -1,0 +1,13 @@
+{
+  "name": "acordeon",
+  "title": "Acordeon",
+  "description": "Añadir acordeón.",
+  "style": ["file:./acordeon.css"],
+  "category": "decotherapy_block_category",
+  "icon": "format-status",
+  "keywords": ["acordeon"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acordeon.php"
+  }
+}
