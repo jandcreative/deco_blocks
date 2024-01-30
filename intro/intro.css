@@ -1,0 +1,22 @@
+div.intro{
+  text-align: center;
+  padding-top: var(--M);
+  padding-bottom: var(--M);
+}
+
+div.intro h2{
+  padding-bottom: 60px;
+}
+
+div.intro p{
+  font-size: 24px;
+}
+
+div.intro a.link{
+  color: var(--cta);
+  text-decoration: none;
+}
+
+div.intro a.link:hover{
+  text-decoration: underline;
+}

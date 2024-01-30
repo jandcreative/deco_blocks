@@ -1,0 +1,14 @@
+{
+  "name": "intro",
+  "title": "Intro",
+  "description": "Titular y texto introductorio de sección.",
+  "style": ["file:./intro.css"],
+  "category": "decotherapy_block_category",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["intro"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "intro.php"
+  }
+}
+
