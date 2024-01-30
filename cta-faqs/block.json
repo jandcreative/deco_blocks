@@ -1,0 +1,13 @@
+{
+  "name": "CTA-Faqs",
+  "title": "CTA (Faqs)",
+  "description": "Banner CTA Faqs",
+  "style": ["file:./cta-faqs.css"],
+  "category": "decotherapy_block_category",
+  "icon": "megaphone",
+  "keywords": ["cta"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "cta-faqs.php"
+  }
+}
