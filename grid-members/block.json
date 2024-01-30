@@ -1,0 +1,14 @@
+{
+  "name": "grid members",
+  "title": "Grid Miembros",
+  "description": "Miembros",
+  "style": ["file:./grid-members.css"],
+  "category": "decotherapy_block_category",
+  "icon": "businesswoman",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "grid-members.php"
+  }
+}
+
