@@ -1,0 +1,62 @@
+/* Form  */
+
+.form{
+  display: flex;
+  border-radius: 15px;
+  padding: var(--XL) var(--XL) var(--M);
+  justify-content: space-between;
+  gap: var(--M);
+}
+
+.form .box-content{
+  flex-basis: 40%;
+}
+
+.form .box-form{
+  flex-basis: 50%;
+}
+
+#gform_wrapper_1 input,
+#gform_wrapper_1 textarea{
+  font-family: "Marbry-regular";
+  border-radius: 15px;
+  border: 1px solid #E0E0E0;
+  font-size: 14px;
+  padding: 1em;
+  color: #828282;
+}
+
+#gform_wrapper_1  .gform_footer.top_label{
+  text-align: center;
+}
+
+.form .box-content p{
+  padding-bottom: 0;
+}
+
+.form .box-content h2{
+  padding-bottom: var(--S);
+}
+
+h2.gform_title {
+  display: none;
+}
+
+.form .box-content{
+  flex-basis: 40%;
+}
+
+.form .box-content .form input{
+  border-radius: 15px;
+}
+
+input#gform_submit_button_1{
+  background-color: transparent;
+  font-family: "Marbry-bold";
+  padding: 8px 32px;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  }

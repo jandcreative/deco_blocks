@@ -1,0 +1,13 @@
+{
+  "name": "formulario",
+  "title": "Formulario de Contacto",
+  "description": "Formulario",
+  "style": ["file:./form.css"],
+  "category": "decotherapy_block_category",
+  "icon": "megaphone",
+  "keywords": ["formulario, contacto"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "form.php"
+  }
+}
