@@ -1,0 +1,11 @@
+
+div.text h3{
+    padding-bottom: var(--S);
+}
+
+div.text span.number {
+    font-family: "Marbry-regular";
+    font-size: 120px;
+    font-style: normal;
+    line-height: 86px;
+}

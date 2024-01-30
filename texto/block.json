@@ -1,0 +1,14 @@
+{
+  "name": "texto",
+  "title": "Texto",
+  "description": "Bloque de Texto",
+  "style": ["file:./text.css"],
+  "category": "decotherapy_block_category",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["txt"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "text.php"
+  }
+}
+
