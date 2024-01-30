@@ -1,0 +1,36 @@
+.list-grid-banners {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   
+}
+
+.list-grid-banners .item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.list-grid-banners .item img{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.list-grid-banners .content {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 16px;
+    margin: 12px;
+    border-radius: 10px;
+    height: fit-content;
+    width: auto;
+}
+
+.list-grid-banners .content p{
+    margin-bottom: 0;
+}
+
+
