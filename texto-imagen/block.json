@@ -1,0 +1,14 @@
+{
+  "name": "texto-imagen",
+  "title": "Texto + Imagen",
+  "description": "Bloque de Texto + Imagen",
+  "style": ["file:./text-image.css"],
+  "category": "decotherapy_block_category",
+  "icon": "welcome-widgets-menus",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "text-image.php"
+  }
+}
+
