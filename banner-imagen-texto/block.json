@@ -1,0 +1,13 @@
+{
+  "name": "Banner Imagen Texto",
+  "title": "Banner (Imagen + Texto)",
+  "description": "Banner CTA",
+  "style": ["file:./banner-imagen-texto.css"],
+  "category": "decotherapy_block_category",
+  "icon": "megaphone",
+  "keywords": ["banner"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "banner-imagen-texto.php"
+  }
+}

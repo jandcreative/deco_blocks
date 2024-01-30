@@ -1,0 +1,53 @@
+/* Banner Imagen + Texto Styles  */
+
+section .banner-imagen-texto {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  padding: 0 var(--S);
+}
+
+section .banner-imagen-texto .text-img{
+  align-items: center;
+}
+
+section .banner-imagen-texto .text-img .box-img,
+section .banner-imagen-texto .text-img .box-content{
+  flex: 50%;
+}
+
+section .banner-imagen-texto .text-img .box-img img{
+  border-radius: var(--br);
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+
+section .banner-imagen-texto .text-img .box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section .banner-imagen-texto .text-img .box-content.small{
+  padding: 0;
+}
+
+section .banner-imagen-texto .text-img .box-content.big{
+  padding: 0 2em;
+}
+
+section .banner-imagen-texto .box-content h2{
+  padding-bottom: var(--M);
+}
+
+section .banner-imagen-texto .box-content a{
+  font-family: "Marbry-bold";
+  padding: 8px 16px;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+}
