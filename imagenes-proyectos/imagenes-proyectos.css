@@ -1,0 +1,77 @@
+
+
+.imagenes-proyectos{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.imagenes-proyectos .item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imagenes-proyectos .item img{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+
+/* .imagenes-proyectos .item img{
+    border-radius: 15px;
+} */
+
+/* imagenes-proyectos
+
+section.imagenes-proyectos .list-imagenes-proyectos .item.center .content {
+    background-color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 150px;
+    padding: 20px 25px;
+    width: 380px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section.imagenes-proyectos .list-imagenes-proyectos a.button{
+    font-family: "Marbry-bold";
+    padding: 8px 16px;
+    border:2px solid var(--primary);
+    color: var(--primary);
+    display: inline-block;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+section.imagenes-proyectos .list-imagenes-proyectos a.button:hover{
+    text-decoration: underline;
+}
+
+section.imagenes-proyectos .list-imagenes-proyectos .item.top .content {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 20px 25px;
+    margin: 1em;
+    border-radius: 10px;
+    min-height: 183px;
+}
+
+section.imagenes-proyectos  .list-imagenes-proyectos .content p{
+    margin-bottom: 0;
+}
+
+
+ */
