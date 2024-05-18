@@ -4,12 +4,17 @@ div.intro{
   padding-bottom: var(--M);
 }
 
+div.intro h1,
 div.intro h2{
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 div.intro p{
   font-size: 24px;
+}
+
+div.intro p a{
+  color: var(--accent);
 }
 
 div.intro a.link{
@@ -19,4 +24,28 @@ div.intro a.link{
 
 div.intro a.link:hover{
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 1080px) {
+
+  div.intro h1,
+  div.intro h2{
+    padding-bottom: 30px;
+  }
+  
+    div.intro p {
+      font-size: 20px;
+  }
+  }
+
+@media only screen and (max-width: 480px) {
+
+  div.intro{
+    padding-top:0;
+    padding-bottom:0;
+  }
+
+  div.intro h2{
+    padding-bottom: 20px;
+  }
 }
