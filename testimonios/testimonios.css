@@ -6,9 +6,9 @@ section.testimonios h2 {
   text-align: center;
 }
 
-section.testimonios.alignwide {
+/* section.testimonios.alignwide {
   max-width: 1320px;
-}
+} */
 
 .testimonials-carousel {
   display: flex;
@@ -21,10 +21,15 @@ section.testimonios.alignwide {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: var(--L-M);
+  /*justify-content: center;
+  padding: var(--L-M); */
+  padding: 60px 40px 60px;
   border-radius: 15px;
   gap: 1em;
+}
+
+.testimonials-carousel .item .description p {
+  margin-bottom: 0;
 }
 
 .testimonials-carousel .slick-track .item.slick-slide{
@@ -46,7 +51,7 @@ i.left.slick-arrow{
   left: -34px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url("https://jandcreative-dev.com/decotherapy/wp-content/uploads/icon_chevron_left.svg");
+  background-image: url("https://www.decotherapy.com/wp-content/uploads/icon_chevron_left.svg");
   border: none;
   width: 22px;
   height: 39px;
@@ -59,12 +64,28 @@ i.right.slick-arrow{
   right: -34px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url("https://jandcreative-dev.com/decotherapy/wp-content/uploads/icon_chevron_right.svg");
+  background-image: url("https://www.decotherapy.com/wp-content/uploads/icon_chevron_right.svg");
   border: none;
   width: 22px;
   height: 39px;
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 480px) {
 
+  section.testimonios h2 {
+    padding-bottom: 20px;
+  }
 
+  i.left.slick-arrow{
+    left: -10px;
+    width: 15px;
+    height: 35px;
+  }
+
+  i.right.slick-arrow{
+    right: -10px;
+    width: 15px;
+    height: 35px;
+  }
+}
