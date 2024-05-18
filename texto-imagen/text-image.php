@@ -22,7 +22,7 @@ $options_text_img = get_field('options_text_img');
 
 ?>
 
-<div <?php echo $anchor; ?> class="<?php echo $class_name; ?> <?php echo $options_text_img['alignment_text_img']; ?>">
+<div <?php echo $anchor; ?> class="<?php echo $class_name; ?> <?php echo $options_text_img['alignment_text_img'];?> <?php echo $options_text_img['flex_text_img'];?>">
 		
 	<div class="box-text <?php echo $options_text_img['order_text_img'];?>" style="padding:<?php echo $options_text_img['padding_text_img'];?>">
 		<?php echo $html_text_img; ?>
