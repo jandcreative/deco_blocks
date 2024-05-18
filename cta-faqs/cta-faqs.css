@@ -13,7 +13,8 @@ section .banner-faqs {
 section .banner-faqs .ilustration {
   position: absolute;
   bottom: -10px;
-  left: 80px;
+  left: 25px;
+  z-index: 0;
 }
 
 .banner-faqs .box-container {
@@ -23,6 +24,7 @@ section .banner-faqs .ilustration {
   max-width: 650px;
   justify-content: center;
   padding: 0 20px;
+  z-index: 10;
 }
 
 section .banner-faqs a.button {
@@ -31,7 +33,7 @@ section .banner-faqs a.button {
   border-radius: 10px;
   background-color: var(--cta);
   border: 1px solid var(--cta);
-  padding: 7px 16px;
+  padding: 5px 16px 7px;
   text-decoration: none;
   width: fit-content;
   margin: 0 auto;
@@ -39,7 +41,9 @@ section .banner-faqs a.button {
 }
 
 section .banner-faqs a.button:hover{
-  text-decoration: underline;
+  background-color: var(--cta-hover);
+  border: 1px solid var(--cta-hover);
+  text-decoration: none;
 }
 
 section .banner-faqs h2 {
@@ -50,4 +54,30 @@ section .banner-faqs h2 {
 }
 section .banner-faqs .text p{
   padding-bottom: var(--L);
+}
+
+
+@media only screen and (max-width: 1080px){
+
+  section .banner-faqs .ilustration{
+    display: none;
+  }
+
+  section .banner-faqs h2 {
+    font-size: 36px;  
+  }
+
+  section .banner-faqs .text p{
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  section .banner-faqs h2 {
+    font-size: 28px; 
+  }
+
+  section .banner-faqs{
+    height: 300px;
+  }
 }
