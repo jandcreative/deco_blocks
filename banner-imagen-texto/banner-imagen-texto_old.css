@@ -27,7 +27,7 @@ section .banner-imagen-texto .text-img .box-img img{
 section .banner-imagen-texto .text-img .box-content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 section .banner-imagen-texto .text-img .box-content.small{
@@ -40,7 +40,6 @@ section .banner-imagen-texto .text-img .box-content.big{
 
 section .banner-imagen-texto .box-content h2{
   padding-bottom: var(--M);
-  line-height: 48px;
 }
 
 section .banner-imagen-texto .box-content a{
@@ -51,33 +50,4 @@ section .banner-imagen-texto .box-content a{
   display: inline-block;
   border-radius: 10px;
   text-decoration: none;
-  transition: 0.25s;
 }
-
-section .banner-imagen-texto .box-content a:hover{
-  background-color: var(--primary);
-  color: var(--white);
-}
-
-@media only screen and (max-width: 800px) {
-  section .banner-imagen-texto .text-img{
-    flex-direction: column;
-  }
-
-  section .banner-imagen-texto .text-img .box-img{
-    width: 100%;
-  }
-
-  section .banner-imagen-texto .box-content h2{
-    padding-bottom: var(--S-M);
-    line-height: 40px;
-  }
-
-  section .banner-imagen-texto .text-img .box-content.big{
-    padding: 0;
-    text-align: center;
-    align-items: center;
-  }
-}
-
-
