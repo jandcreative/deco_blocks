@@ -17,6 +17,7 @@ endif;
 $title_destacado= get_field('title_banners_destacados');
 $alignment = get_field('alignment');
 $border = get_field('border');
+$alignment = get_field('alignment');
 ?>
 
 <section <?php echo $anchor; ?> class="<?php echo $class_name; ?> alignwide">
@@ -39,7 +40,7 @@ $border = get_field('border');
 					<?php if (($alignment) === 'top'): ?>
 						<?php the_sub_field('text_destacado_01'); ?>
 					<?php else : ?>
-						<a class="button" href="<?php the_sub_field('link_destacado_01'); ?>"><?php the_sub_field('button_destacado_01'); ?></a>
+						<a class="button" target="_<?php the_sub_field('open_new_window_01');?>" href="<?php the_sub_field('link_destacado_01'); ?>"><?php the_sub_field('button_destacado_01'); ?></a>
 				 	<?php endif; ?>
 				</div>
 			
@@ -54,7 +55,7 @@ $border = get_field('border');
 					<?php if (($alignment) === 'top'): ?>
 						<?php the_sub_field('text_destacado_02'); ?>
 					<?php else : ?>
-						<a class="button" href="<?php the_sub_field('link_destacado_02'); ?>"><?php the_sub_field('button_destacado_02'); ?></a>	
+						<a class="button" target="<?php the_sub_field('open_new_window_02');?>" href="<?php the_sub_field('link_destacado_02'); ?>"><?php the_sub_field('button_destacado_02'); ?></a>	
 					<?php endif; ?>
 				</div>
 			</div>

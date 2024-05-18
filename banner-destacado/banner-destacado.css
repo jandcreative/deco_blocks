@@ -33,23 +33,29 @@ section.banners-destacados .list-banners-destacados .item.center .content {
     margin: auto;
     height: 150px;
     padding: 20px 25px;
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.banners-destacados .list-banners-destacados a.button{
     font-family: "Marbry-bold";
-    padding: 8px 16px;
+    padding: 8px 14px;
     border:2px solid var(--primary);
     color: var(--primary);
     display: inline-block;
     border-radius:10px;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 section.banners-destacados .list-banners-destacados a.button:hover{
-    text-decoration: underline;
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 section.banners-destacados .list-banners-destacados .item.top .content {
@@ -66,4 +72,29 @@ section.banners-destacados  .list-banners-destacados .content p{
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 800px) {
 
+    section.banners-destacados .list-banners-destacados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.banners-destacados h2 {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+section.banners-destacados .list-banners-destacados .item.center .content{
+    margin: auto 1em;
+    width: auto;
+}
+}
+@media only screen and (max-width: 480px) {
+
+    section.banners-destacados h2 {
+        padding-bottom: 30px;
+    }
+
+}
