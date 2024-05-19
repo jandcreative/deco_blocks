@@ -8,9 +8,6 @@
   height: 120px;
 }
 
-.block-spacer.big {
-  height: 60px;
-}
 
 .block-spacer.medium {
   height: 30px;
@@ -18,4 +15,30 @@
 
 .block-spacer.small {
   height: 15px;
+}
+
+@media only screen and (max-width: 880px) {
+
+.block-spacer.alignwide.xl.mobile-none{
+  height: 40px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+  .block-spacer.xl {
+    height: 60px;
+  }  
+
+  .block-spacer.big {
+    height: 30px;
+  }
+
+  .block-spacer.medium {
+      height: 15px;
+  }
+
+  .block-spacer.alignwide.xl.mobile-none{
+   display: none;
+  }
 }
