@@ -1,4 +1,3 @@
-
 div.text h3{
     padding-bottom: var(--S);
 }
@@ -9,3 +8,47 @@ div.text span.number {
     font-style: normal;
     line-height: 86px;
 }
+
+
+
+@media only screen and (max-width: 1080px){
+    div.text span.number{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .columns-text{
+        flex-direction: column;
+    }
+    .columns-text .text{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    section.como-funciona .intro{
+        padding-top: 20px;
+    }
+
+    div.text span.number{
+        font-size: 70px;
+    }
+
+    section.como-funciona p{
+        margin-bottom: 0;
+    }
+
+    section.como-funciona .gap-XL {
+        gap: 20px;
+    }
+}
+
+
+
+
+
