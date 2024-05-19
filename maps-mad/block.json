@@ -1,0 +1,14 @@
+{
+  "name": "maps-mad",
+  "title": "Localizacion 02",
+  "description": "Localizacion 02",
+  "style": ["file:./localizacion-mad.css"],
+  "category": "decotherapy_block_category",
+  "icon": "admin-site-alt",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "localizacion-mad.php"
+  }
+}
+
