@@ -1,6 +1,6 @@
 {
-  "name": "grid members",
-  "title": "Grid Miembros",
+  "name": "grid-members",
+  "title": "Miembros",
   "description": "Miembros",
   "style": ["file:./grid-members.css"],
   "category": "decotherapy_block_category",
