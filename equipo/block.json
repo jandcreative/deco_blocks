@@ -1,0 +1,14 @@
+{
+    "name": "equipo",
+    "title": "Equipo",
+    "description": "Miembros del equipo",
+    "style": ["file:./equipo.css"],
+    "category": "decotherapy_block_category",
+    "icon": "businesswoman",
+    "keywords": ["equipo"],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "equipo.php"
+    }
+  }
+  
