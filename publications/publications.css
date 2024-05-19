@@ -9,14 +9,12 @@ section.publications {
   padding-bottom: var(--L);
 }
 
-
 section.publications cite{
   font-style: italic;
   font-size: 48px;
   padding-bottom: 60px;
   max-width: 1000px;
 }
-
 
 section.publications .clients {
   padding: 0;
@@ -53,4 +51,27 @@ section.publications .client img {
 section.publications .client img:hover {
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 1080px){
+  section.publications cite h2{
+      font-size: 36px;
+  }
+}
+  
+
+@media only screen and (max-width: 480px) {
+
+  section.publications h2 {
+    padding-bottom: 20px;
+  }
+
+  section.publications cite{
+    font-size: 28px;
+  }
+
+  section.publications cite{
+    padding-bottom: 20px;
+  }
+}
+
 
