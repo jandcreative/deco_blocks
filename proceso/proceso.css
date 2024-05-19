@@ -35,12 +35,40 @@ section.process a{
     width: fit-content;
     margin: 0 auto;
     cursor: pointer;
+    transition: 0.25s;
 }
 
 section.process a:hover{
-  text-decoration: underline;
+  background-color: var(--cta-hover);
+  border: 1px solid var(--cta-hover);
 }
 
+
+@media only screen and (max-width: 1210px) {
+  section.process .list-process {
+   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+
+section.process .list-process .item-process{
+    gap: 2em
+}
+}
+
+@media only screen and (max-width: 580px) {
+  section.process .list-process{
+    grid-gap: 1em;
+  }
+
+  section.process .list-process .item-process {
+    gap: 1em;
+}
+}
+
+@media only screen and (max-width: 480px) {
+section.process .list-process{
+  padding-bottom: 20px;
+}
+}
 
 /* @media only screen and (max-width: 980px) {
 
