@@ -32,11 +32,8 @@ $link_herohome = get_field('link_hero_home');
 		<?php endwhile; ?>
 	</div>
 	<div class="box-container">
-		<h1><?php echo $title_herohome; ?></h1>
-		<p><?php echo $text_herohome; ?></p>
-		<a href="<?php echo $link_herohome; ?>"><?php echo $button_herohome; ?></a>
+			<h1><?php echo $title_herohome; ?></h1>
+			<p><?php echo $text_herohome; ?></p>
+			<a href="<?php echo $link_herohome; ?>"><?php echo $button_herohome; ?></a>
 	</div>
-
 </section>
-
-
