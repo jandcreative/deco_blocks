@@ -59,4 +59,39 @@ input#gform_submit_button_1{
   display: inline-block;
   border-radius: 10px;
   text-decoration: none;
+  margin: 0 auto;
+  transition: 0.25s;
+  cursor: pointer;
   }
+
+  input#gform_submit_button_1:hover{
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .form {
+      padding: 40px 20px;
+      flex-direction: column;
+    }
+
+    .form .box-content{
+      text-align: center;
+    }
+
+    .form .box-content img {
+      height: 300px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .gform_wrapper.gravity-theme input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]) {
+      line-height: normal!important;
+  }
+}
+
+  @media only screen and (max-width: 480px) {
+
+  }
+  
