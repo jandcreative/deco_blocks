@@ -1,0 +1,14 @@
+{
+  "name": "decopacks-pymes",
+  "title": "Decopacks Pymes",
+  "description": "Decopacks Pymes",
+  "style": ["file:./decopacks-pymes.css"],
+  "category": "decotherapy_block_category",
+  "icon": "cover-image",
+  "keywords": ["decopacks", "pymes"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "decopacks-pymes.php"
+  }
+}
+
