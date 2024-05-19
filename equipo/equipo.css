@@ -1,0 +1,44 @@
+.list-grid-members-team {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+}
+
+.list-grid-members-team .item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.list-grid-members-team .item img{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.list-grid-members-team .content {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 10PX;
+    margin: 16px;
+    border-radius: 10px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    bottom: 0;
+}
+
+.list-grid-members-team .content .text {
+    text-align: center;
+}
+
+.list-grid-members-team .content .text h3 {
+    padding-bottom: var(--XS);
+}
+
+.list-grid-members-team .content p{
+    margin-bottom: 0;
+}
+
+
