@@ -4,12 +4,10 @@
     gap: 1em;
 }
 
-
 .list-decopacks .item {
     max-width: 400px;
     width: 100%;
 }
-
 
 .cita{
     font-size: 21px;
@@ -19,7 +17,7 @@
 .item-decopack {
     display: flex;
     flex-direction: column;
-    background-color: #EFE8DA;
+    background-color: var(--soft-beige);
     padding: 0 1em;
     gap: 1em;
     position: relative;
@@ -42,7 +40,6 @@
     position: relative;
 }
 
-
 .decopacks.personal .item-decopack.destacado{
     border: 6px solid var(--accent);
     border-bottom: 0;
@@ -59,7 +56,6 @@
     border-top:0;
 }
 
-
 .decopacks.company .item-decopack.destacado{
     border: 6px solid #B29E83;
     border-bottom: 0;
@@ -73,6 +69,34 @@
 
 .decopacks.company .list-decopacks.button .item-decopack.destacado{
     border: 6px solid #B29E83;;
+    border-top:0;
+}
+
+.list-decopacks.table .item-decopack .price p{
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row.price p{
+    padding: 20px 0 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.decopacks.business .item-decopack.destacado{
+    border: 6px solid #161616;
+    border-bottom: 0;
+}
+
+.decopacks.business .list-decopacks.table .item-decopack.destacado{
+    border: 6px solid #161616;
+    border-top:0;
+    border-bottom:0;
+}
+
+.decopacks.business .list-decopacks.button .item-decopack.destacado{
+    border: 6px solid #161616;
     border-top:0;
 }
 
@@ -117,6 +141,18 @@
     top: -2px;
 }
 
+.decopacks.business .item-decopack.destacado span.label{
+    background-color: #161616;
+    font-family: "Marbry-bold";
+    width: fit-content;
+    padding: 0.5em 1em;
+    color: #fff;
+    right: -1px;
+    position: absolute;
+    border-radius: 0 10px 0 10px;
+    top: -2px;
+}
+
 .item-decopack .img {
     display: flex;
     height: 200px;
@@ -140,6 +176,10 @@
     gap: 1em;
 }
 
+.decopacks.company .list-decopacks.table {
+    border-bottom: 1px solid  #B29E83;
+}
+
 .list-decopacks.table {
     border-bottom: 1px solid var(--accent);
 }
@@ -161,10 +201,18 @@
 .list-decopacks.table .item-decopack p{
     padding:0;
     margin-bottom: 0;
+    font-size: 22px;
 }
 
 .frame-table .list-decopacks.table:last-child{
     border-bottom: 0;
+}
+
+.item-decopack.no_active.price p,
+.item-decopack.destacado.price p{
+    padding: 1em 0;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .list-decopacks.button  {
@@ -177,15 +225,116 @@
     border-radius: 10px;
     background-color: var(--cta);
     border: 1px solid var(--cta);
-    padding: 7px 16px;
+    padding: 5px 16px 7px;
     width: fit-content;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 .button-decopack:hover{
-    text-decoration: underline;
+    background-color: var(--cta-hover);
+    border: 1px solid var(--cta-hover);
+    text-decoration: none;
 }
 
 .list-decopacks.button .item-decopack{
     padding-bottom: 1.5em;
+}
+
+.content-table {
+    display: none;
+}
+
+.content-button{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .list-decopacks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    .content-button {
+        display: flex;
+        justify-content: center;
+        padding: 1em 0 2em;
+    }
+
+    .decopacks.personal .item-decopack.destacado{
+        border-radius: 15px 15px 15px 15px;
+        border-bottom: 6px solid var(--accent);
+    }
+
+    .decopacks.company .item-decopack.destacado{
+        border-radius: 15px 15px 15px 15px;
+        border-bottom: 6px solid #B29E83;
+    }
+
+    .decopacks.business .item-decopack.destacado{
+        border-radius: 15px 15px 15px 15px;
+        border-bottom: 6px solid #161616;
+    }
+
+    .decopacks.company .buttons,
+    .decopacks.personal .buttons,
+    .decopacks.business .buttons {
+        display: none;
+    }
+    
+    .list-decopacks .item-decopack{
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .item-decopack{
+        max-width: 100%;
+        width: 100%;
+        padding: 0 2em;
+    }
+
+    .list-decopacks .item{
+        display: none;
+    }
+    .frame-table {
+        display: none;
+    }
+
+    .content-table{
+        display: block;
+    }
+
+    .content-table .row{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-top: 1px solid var(--accent);
+        align-items: center;
+        gap: 1em;
+    }
+
+    .decopacks.company .content-table .row{
+        border-top: 1px solid  #B29E83;
+    }
+
+    .content-table .row p{
+        margin: 0;
+    }
+
+    .content-table .row p.value{
+        font-size: 20px;
+        min-width: 66px;
+        text-align: right;
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+
+    .item-decopack {
+        padding: 0 20px;
+    }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "decopacks",
+  "title": "Decopacks",
+  "description": "Decopacks",
+  "style": ["file:./decopacks.css"],
+  "category": "decotherapy_block_category",
+  "icon": "cover-image",
+  "keywords": ["decopacks"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "decopacks.php"
+  }
+}
+
