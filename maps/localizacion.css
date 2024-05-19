@@ -37,3 +37,38 @@
     color: var(--accent);
 }
 
+
+@media only screen and (max-width: 1080px) {
+    .localizacion .list-localizacion{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .localizacion .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3em;
+        order: 2;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+
+    .localizacion .content{
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+
+    .localizacion .content .item {
+        padding-bottom: 1em;
+    }
+
+    .localizacion .list-localizacion .social-icons {
+        justify-content: center;
+    }
+}

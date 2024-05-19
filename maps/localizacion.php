@@ -16,6 +16,7 @@ endif;
 // ACF Fields
 $txt_localizacion = get_field('txt_localizacion');
 $info_localizacion = get_field('info_localizacion');
+$key_googlemaps = get_field('google_maps');
 
 // Grupos
 $links_social = get_field('links_social_media');
@@ -214,7 +215,17 @@ $links_social = get_field('links_social_media');
 			<div class="marker" data-lat="<?php echo esc_attr($location['lat']); ?>" data-lng="<?php echo esc_attr($location['lng']); ?>"></div>
 		</div>
 	<?php endif; ?>
+	<?php 
+	$location_02 = get_field('google_maps_02');
+	if( $location_02 ): ?>
+		<div class="acf-map" data-zoom="16">
+			<div class="marker" data-lat="<?php echo esc_attr($location['lat']); ?>" data-lng="<?php echo esc_attr($location['lng']); ?>"></div>
+		</div>
+	<?php endif; ?>
 	</div>
+
+
+
 
 </section>
 
