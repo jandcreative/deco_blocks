@@ -1,0 +1,14 @@
+{
+  "name": "imagenes-proyectos",
+  "title": "Imagenes Proyectos",
+  "description": "Imagenes Proyectos",
+  "style": ["file:./imagenes-proyectos.css"],
+  "category": "decotherapy_block_category",
+  "icon": "cover-image",
+  "keywords": ["imagen"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "imagenes-proyectos.php"
+  }
+}
+
