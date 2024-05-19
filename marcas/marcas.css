@@ -44,3 +44,11 @@ section.marcas .client img:hover {
   transform: scale(1.05);
 }
 
+@media only screen and (max-width: 480px) {
+
+  section.marcas h2 {
+    padding-bottom: 20px;
+  }
+}
+
+
